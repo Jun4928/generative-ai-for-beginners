@@ -1,0 +1,7 @@
+name: lfg
+channels:
+  - defaults
+dependencies:
+  - python=3
+  - openai
+  - python-dotenv

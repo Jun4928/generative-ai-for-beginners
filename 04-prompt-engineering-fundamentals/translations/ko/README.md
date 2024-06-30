@@ -1,6 +1,6 @@
 # 프롬프트 엔지니어링 기초
 
-[![Prompt Engineering Fundamentals](../../images/04-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson4-gh?WT.mc_id=academic-105485-koreyst)
+[![Prompt Engineering Fundamentals](../../images/04-lesson-banner.png?)](https://aka.ms/gen-ai-lesson4-gh?)
 
 LLM에게 어떻게 프롬프트를 작성하는지는 중요합니다. 신중하게 작성된 프롬프트는 그렇지 않은 프롬프트보다 더 좋은 결과를 얻을 수 있습니다. 그런데 이런 개념들, 프롬프트, 프롬프트 엔지니어링이 무엇인지, 그리고 LLM에게 보내는 것을 어떻게 개선할 수 있는지에 대한 질문들은 바로 이 장과 다가올 장에서 답변하려고 합니다.
 
@@ -33,20 +33,20 @@ _생성형 AI_ 는 사용자의 요청에 응답하여 새로운 콘텐츠(예: 
 이 저장소는 Python 3 런타임이 포함된 _dev 컨테이너_ 로 구성되어 있습니다. GitHub 코드스페이스에서 저장소를 열거나 로컬 Docker 데스크톱에서 열면 런타임이 자동으로 활성화됩니다. 그런 다음 노트북을 열고 Python 3.x 커널을 선택하여 노트북을 실행 준비합니다.
 
 기본 노트북은 Azure OpenAI 서비스 리소스와 함께 사용하도록 설정되어 있습니다. 폴더의 루트에 있는 `.env.copy` 파일을 `.env`로 복사하고 `AZURE_OPENAI_API_KEY=` 및 `AZURE_OPENAI_API_ENDPOINT=` 줄에 API 키와 엔드포인트를 업데이트하면 됩니다.  
-[Azure 포털](https://portal.azure.com?WT.mc_id=academic-105485-koreyst)에서 자신의 Azure OpenAI 리소스로 이동한 후 왼쪽 메뉴의 _Keys and Endpoints_ 탭을 열어 자신의 자격증명을 확인할 수 있습니다.
+[Azure 포털](https://portal.azure.com?)에서 자신의 Azure OpenAI 리소스로 이동한 후 왼쪽 메뉴의 _Keys and Endpoints_ 탭을 열어 자신의 자격증명을 확인할 수 있습니다.
 또한, 배포를 생성할 때 할당한 모델의 이름을 `AZURE_OPENAI_DEPLOYMENT` 변수에 추가해 주세요. 이 연습에 추천하는 모델은 'gpt-35-turbo'입니다.
 
 노트북에는 _starter_ 연습문제가 포함되어 있지만, 더 많은 예제나 아이디어를 시도해보고 프롬프트 디자인에 대한 직관력을 키우기 위해 자신만의 _마크다운_ (설명) 및 _코드_ (프롬프트 요청) 섹션을 추가하는 것이 좋습니다.
 
 ## 우리 스타트업
 
-이제, _본 주제_ 가 우리 스타트업의 [교육에 AI 혁신을 가져오기](https://educationblog.microsoft.com/2023/06/collaborating-to-bring-ai-innovation-to-education?WT.mc_id=academic-105485-koreyst) 미션과 어떻게 관련되는지에 대해 이야기해보겠습니다. 우리는 _개인화된 학습_ (personalized learning)의 AI 기반 응용 프로그램을 구축하고자 합니다. 그러니 애플리케이션 목표와 모델에 대한 다양한 사용자들이 프롬프트를 "디자인" 할 수 있는 방법에 대해 생각해보겠습니다:
+이제, _본 주제_ 가 우리 스타트업의 [교육에 AI 혁신을 가져오기](https://educationblog.microsoft.com/2023/06/collaborating-to-bring-ai-innovation-to-education?) 미션과 어떻게 관련되는지에 대해 이야기해보겠습니다. 우리는 _개인화된 학습_ (personalized learning)의 AI 기반 응용 프로그램을 구축하고자 합니다. 그러니 애플리케이션 목표와 모델에 대한 다양한 사용자들이 프롬프트를 "디자인" 할 수 있는 방법에 대해 생각해보겠습니다:
 
 - **관리자** 는 AI가 _커리큘럼 데이터를 분석하여 부족한 부분을 식별_ 하도록 요청할 수 있습니다. AI는 결과를 요약하거나 코드로 시각화할 수 있습니다.
 - **교육자** 는 _대상 그룹과 주제에 대한 레슨 계획을 생성_ 하도록 AI에게 요청할 수 있습니다. AI는 지정된 형식으로 개인화된 계획을 작성할 수 있습니다.
 - **학생** 들은 _어려운 주제를 가르쳐 달라고 AI에게 요청_ 할 수 있습니다. 이제 AI는 학생의 수준에 맞게 수업, 힌트 및 예제를 안내할 수 있습니다.
 
-이것은 빙산의 일각에 불과합니다. [Prompts For Education](https://github.com/microsoft/prompts-for-edu/tree/main?WT.mc_id=academic-105485-koreyst)를 확인해보세요 - 교육 전문가들이 선별한 오픈 소스 프롬프트 라이브러리로, 더 다양한 가능성을 알 수 있습니다! _샌드박스에서 이러한 프롬프트 중 일부를 실행하거나 OpenAI Playground를 사용하여 결과를 확인해보세요!_
+이것은 빙산의 일각에 불과합니다. [Prompts For Education](https://github.com/microsoft/prompts-for-edu/tree/main?)를 확인해보세요 - 교육 전문가들이 선별한 오픈 소스 프롬프트 라이브러리로, 더 다양한 가능성을 알 수 있습니다! _샌드박스에서 이러한 프롬프트 중 일부를 실행하거나 OpenAI Playground를 사용하여 결과를 확인해보세요!_
 
 <!--
 LESSON TEMPLATE:
@@ -75,23 +75,23 @@ Define it and explain why it is needed.
 
 LLM은 프롬프트를 _토큰들의 시퀀스_ 로 인식하며, 다른 모델(또는 모델의 버전)은 동일한 프롬프트를 다른 방식으로 토큰화할 수 있습니다. LLM은 토큰에 대해 훈련되기 때문에(원시 텍스트가 아닌) 프롬프트의 토큰화 방식은 생성된 응답의 품질에 직접적인 영향을 미칩니다.
 
-토큰화가 어떻게 작동하는지 직관을 얻기 위해 아래와 같은 [OpenAI Tokenizer](https://platform.openai.com/tokenizer?WT.mc_id=academic-105485-koreyst)와 같은 도구를 사용해보세요. 프롬프트를 복사하여 붙여넣고, 공백 문자와 구두점이 어떻게 처리되는지 주의깊게 살펴보세요. 이 예시는 오래된 LLM(GPT-3)을 보여주므로, 새로운 모델로 시도하면 다른 결과가 나올 수 있습니다.
+토큰화가 어떻게 작동하는지 직관을 얻기 위해 아래와 같은 [OpenAI Tokenizer](https://platform.openai.com/tokenizer?)와 같은 도구를 사용해보세요. 프롬프트를 복사하여 붙여넣고, 공백 문자와 구두점이 어떻게 처리되는지 주의깊게 살펴보세요. 이 예시는 오래된 LLM(GPT-3)을 보여주므로, 새로운 모델로 시도하면 다른 결과가 나올 수 있습니다.
 
-![토큰화](../../images/04-tokenizer-example.png?WT.mc_id=academic-105485-koreyst)
+![토큰화](../../images/04-tokenizer-example.png?)
 
 ### 개념: Foundation 모델
 
-프롬프트가 토큰화되면, ["Base LLM"](https://blog.gopenai.com/an-introduction-to-base-and-instruction-tuned-large-language-models-8de102c785a6?WT.mc_id=academic-105485-koreyst) (또는 Foundation 모델)의 주요 기능은 해당 시퀀스에서 토큰을 예측하는 것입니다. LLM은 대량의 텍스트 데이터셋으로 훈련되었기 때문에 토큰 간의 통계적 관계에 대한 좋은 감각을 가지고 있으며, 이 예측을 어느 정도의 확신으로 수행할 수 있습니다. 그러나 LLM은 프롬프트나 토큰의 "의미"를 이해하지 않습니다. 그들은 그들의 다음 예측으로 "완성"할 수 있는 패턴만을 볼 뿐입니다. 사용자의 개입이나 미리 설정된 조건에 의해 종료될 때까지 시퀀스를 계속 예측할 수 있습니다.
+프롬프트가 토큰화되면, ["Base LLM"](https://blog.gopenai.com/an-introduction-to-base-and-instruction-tuned-large-language-models-8de102c785a6?) (또는 Foundation 모델)의 주요 기능은 해당 시퀀스에서 토큰을 예측하는 것입니다. LLM은 대량의 텍스트 데이터셋으로 훈련되었기 때문에 토큰 간의 통계적 관계에 대한 좋은 감각을 가지고 있으며, 이 예측을 어느 정도의 확신으로 수행할 수 있습니다. 그러나 LLM은 프롬프트나 토큰의 "의미"를 이해하지 않습니다. 그들은 그들의 다음 예측으로 "완성"할 수 있는 패턴만을 볼 뿐입니다. 사용자의 개입이나 미리 설정된 조건에 의해 종료될 때까지 시퀀스를 계속 예측할 수 있습니다.
 
-프롬프트 기반 완성이 어떻게 작동하는지 보고 싶으신가요? 위의 프롬프트를 Azure OpenAI Studio의 [_Chat Playground_](https://oai.azure.com/playground?WT.mc_id=academic-105485-koreyst)에 입력하고 기본 설정으로 실행해보세요. 시스템은 프롬프트를 정보 요청으로 처리하도록 구성되어 있으므로 이와 관련된 완성을 볼 수 있을 것입니다.
+프롬프트 기반 완성이 어떻게 작동하는지 보고 싶으신가요? 위의 프롬프트를 Azure OpenAI Studio의 [_Chat Playground_](https://oai.azure.com/playground?)에 입력하고 기본 설정으로 실행해보세요. 시스템은 프롬프트를 정보 요청으로 처리하도록 구성되어 있으므로 이와 관련된 완성을 볼 수 있을 것입니다.
 
 하지만 사용자가 특정한 기준이나 작업 목표를 충족하는 내용을 보고 싶어한다면 어떻게 해야 할까요? 이때 _instruction-tuned_ LLM이 등장합니다.
 
-![Base LLM Chat Completion](../../images/04-playground-chat-base.png?WT.mc_id=academic-105485-koreyst)
+![Base LLM Chat Completion](../../images/04-playground-chat-base.png?)
 
 ### 개념: Instruction Tuned LLMs
 
-[Instruction Tuned LLM](https://blog.gopenai.com/an-introduction-to-base-and-instruction-tuned-large-language-models-8de102c785a6?WT.mc_id=academic-105485-koreyst)은 Foundation 모델로 시작하여 예제나 입력/출력 쌍(예: 다중 턴 "메시지")로 세밀하게 튜닝되며, 명확한 지시사항을 포함할 수 있으며, AI의 응답은 해당 지시를 따르도록 시도합니다.
+[Instruction Tuned LLM](https://blog.gopenai.com/an-introduction-to-base-and-instruction-tuned-large-language-models-8de102c785a6?)은 Foundation 모델로 시작하여 예제나 입력/출력 쌍(예: 다중 턴 "메시지")로 세밀하게 튜닝되며, 명확한 지시사항을 포함할 수 있으며, AI의 응답은 해당 지시를 따르도록 시도합니다.
 
 이는 Reinforcement Learning with Human Feedback (RLHF)와 같은 기법을 사용하여 모델이 _지시를 따르고_ _피드백을 통해 학습_ 하여 실제 응용 프로그램에 더 적합하고 사용자의 목표와 관련성이 더 높은 응답을 생성할 수 있도록 합니다.
 
@@ -101,7 +101,7 @@ LLM은 프롬프트를 _토큰들의 시퀀스_ 로 인식하며, 다른 모델(
 
 결과가 원하는 목표와 형식을 반영하도록 조정된 것을 보실 수 있나요? 교육자는 이제 이 응답을 해당 수업의 슬라이드에 직접 사용할 수 있습니다.
 
-![Instruction Tuned LLM Chat Completion](../../images/04-playground-chat-instructions.png?WT.mc_id=academic-105485-koreyst)
+![Instruction Tuned LLM Chat Completion](../../images/04-playground-chat-instructions.png?)
 
 ## 왜 프롬프트 엔지니어링이 필요한가요?
 
@@ -120,7 +120,7 @@ OpenAI 또는 Azure OpenAI Playground에서 이를 실제로 확인해보세요:
 
 ### Fabrications 예시
 
-이 강좌에서는 LLM이 훈련 제약이나 다른 제약으로 인해 사실적이지 않은 정보를 생성하는 현상을 가리키는 **"fabrication"** 이라는 용어를 사용합니다. 일반적인 기사나 연구 논문에서는 이를 _"환각(hallucination)"_ 이라고 부르기도 합니다. 그러나 우리는 기계적으로 생성된 결과에 인간과 유사한 특성을 부여하는 것을 방지하기 위해 _"fabrication"_ 이라는 용어를 사용하는 것을 강력히 권장합니다. 이는 또한 용어 관점에서 [책임 있는 AI 가이드라인](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-105485-koreyst)을 강화하며, 일부 상황에서 논란이 될 수 있는 모욕적이거나 포용되지 않는 용어를 제거합니다.
+이 강좌에서는 LLM이 훈련 제약이나 다른 제약으로 인해 사실적이지 않은 정보를 생성하는 현상을 가리키는 **"fabrication"** 이라는 용어를 사용합니다. 일반적인 기사나 연구 논문에서는 이를 _"환각(hallucination)"_ 이라고 부르기도 합니다. 그러나 우리는 기계적으로 생성된 결과에 인간과 유사한 특성을 부여하는 것을 방지하기 위해 _"fabrication"_ 이라는 용어를 사용하는 것을 강력히 권장합니다. 이는 또한 용어 관점에서 [책임 있는 AI 가이드라인](https://www.microsoft.com/ai/responsible-ai?)을 강화하며, 일부 상황에서 논란이 될 수 있는 모욕적이거나 포용되지 않는 용어를 제거합니다.
 
 fabrication이 어떻게 작동하는지 알아보고 싶으신가요? 훈련 데이터셋에서 찾을 수 없는 존재하지 않는 주제에 대한 내용을 AI에게 생성하도록 지시하는 프롬프트를 생각해보세요. 예를 들어 - 저는 다음과 같은 프롬프트를 시도해보았습니다:
 
@@ -132,15 +132,15 @@ fabrication이 어떻게 작동하는지 알아보고 싶으신가요? 훈련 �
 
 > **응답 1**: OpenAI Playground (GPT-35)
 
-![응답 1](../../images/04-fabrication-oai.png?WT.mc_id=academic-105485-koreyst)
+![응답 1](../../images/04-fabrication-oai.png?)
 
 > **응답 2**: Azure OpenAI Playground (GPT-35)
 
-![응답 2](../../images/04-fabrication-aoai.png?WT.mc_id=academic-105485-koreyst)
+![응답 2](../../images/04-fabrication-aoai.png?)
 
 > **응답 3**: Hugging Face Chat Playground (LLama-2)
 
-![응답 3](../../images/04-fabrication-huggingchat.png?WT.mc_id=academic-105485-koreyst)
+![응답 3](../../images/04-fabrication-huggingchat.png?)
 
 예상대로, 각 모델(또는 모델 버전)은 확률적인 동작과 모델 능력의 차이로 인해 약간 다른 응답을 생성합니다. 예를 들어, 하나의 모델은 8학년 학생을 대상으로 하고 다른 모델은 고등학생을 가정합니다. 그러나 세 모델 모두 미지식 사용자를 설득할 수 있는 실제 사건인 것처럼 보이는 응답을 생성했습니다.
 
@@ -148,20 +148,20 @@ _메타프롬프팅(meta-prompting)_ 과 _temperature 설정_ 과 같은 프롬�
 
 ## 사례 연구: GitHub Copilot
 
-이 섹션을 마무리하기 전에, 실제 세계 솔루션에서 프롬프트 엔지니어링이 어떻게 사용되는지 알아보기 위해 한 가지 사례 연구인 [GitHub Copilot](https://github.com/features/copilot?WT.mc_id=academic-105485-koreyst)을 살펴봅시다.
+이 섹션을 마무리하기 전에, 실제 세계 솔루션에서 프롬프트 엔지니어링이 어떻게 사용되는지 알아보기 위해 한 가지 사례 연구인 [GitHub Copilot](https://github.com/features/copilot?)을 살펴봅시다.
 
-GitHub Copilot은 "AI 동료 프로그래머"로, 텍스트 프롬프트를 코드 완성으로 변환하며 개발 환경(예: Visual Studio Code)에 통합되어 원활한 사용자 경험을 제공합니다. 아래의 블로그 시리즈에서 문서화된 바와 같이, 초기 버전은 OpenAI Codex 모델을 기반으로 하였으며, 엔지니어들은 빠르게 모델을 세밀하게 튜닝하고 프롬프트 엔지니어링 기법을 개발하여 코드 품질을 개선해야 함을 깨달았습니다. 7월에는 [더 빠른 제안을 위해 Codex를 넘어선 개선된 AI 모델을 선보였습니다](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?WT.mc_id=academic-105485-koreyst).
+GitHub Copilot은 "AI 동료 프로그래머"로, 텍스트 프롬프트를 코드 완성으로 변환하며 개발 환경(예: Visual Studio Code)에 통합되어 원활한 사용자 경험을 제공합니다. 아래의 블로그 시리즈에서 문서화된 바와 같이, 초기 버전은 OpenAI Codex 모델을 기반으로 하였으며, 엔지니어들은 빠르게 모델을 세밀하게 튜닝하고 프롬프트 엔지니어링 기법을 개발하여 코드 품질을 개선해야 함을 깨달았습니다. 7월에는 [더 빠른 제안을 위해 Codex를 넘어선 개선된 AI 모델을 선보였습니다](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?).
 
 학습 과정을 따라가기 위해 게시물을 순서대로 읽어보세요.
 
-- **2023년 5월** | [GitHub Copilot이 코드 이해 능력을 향상시키는 방법](https://github.blog/2023-05-17-how-github-copilot-is-getting-better-at-understanding-your-code/?WT.mc_id=academic-105485-koreyst)
-- **2023년 5월** | [GitHub Copilot 뒤의 LLMs와의 작업](https://github.blog/2023-05-17-inside-github-working-with-the-llms-behind-github-copilot/?WT.mc_id=academic-105485-koreyst).
-- **2023년 6월** | [GitHub Copilot을 위한 더 나은 프롬프트 작성 방법](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/?WT.mc_id=academic-105485-koreyst).
-- **2023년 7월** | [.. GitHub Copilot이 개선된 AI 모델로 Codex를 넘어섭니다](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?WT.mc_id=academic-105485-koreyst)
-- **2023년 7월** | [프롬프트 엔지니어링과 LLM에 대한 개발자 가이드](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/?WT.mc_id=academic-105485-koreyst)
-- **2023년 9월** | [GitHub Copilot에서 배운 기업용 LLM 앱 개발 방법](https://github.blog/2023-09-06-how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/?WT.mc_id=academic-105485-koreyst)
+- **2023년 5월** | [GitHub Copilot이 코드 이해 능력을 향상시키는 방법](https://github.blog/2023-05-17-how-github-copilot-is-getting-better-at-understanding-your-code/?)
+- **2023년 5월** | [GitHub Copilot 뒤의 LLMs와의 작업](https://github.blog/2023-05-17-inside-github-working-with-the-llms-behind-github-copilot/?).
+- **2023년 6월** | [GitHub Copilot을 위한 더 나은 프롬프트 작성 방법](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/?).
+- **2023년 7월** | [.. GitHub Copilot이 개선된 AI 모델로 Codex를 넘어섭니다](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?)
+- **2023년 7월** | [프롬프트 엔지니어링과 LLM에 대한 개발자 가이드](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/?)
+- **2023년 9월** | [GitHub Copilot에서 배운 기업용 LLM 앱 개발 방법](https://github.blog/2023-09-06-how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/?)
 
-더 많은 예시와 기법이 실제 세계 응용 프로그램에 적용되는 방법을 보여주는 [이 게시물](https://github.blog/2023-09-27-how-i-used-github-copilot-chat-to-build-a-reactjs-gallery-prototype/?WT.mc_id=academic-105485-koreyst)과 같은 게시물을 찾아보기 위해 [Engineering 블로그](https://github.blog/category/engineering/?WT.mc_id=academic-105485-koreyst)를 참조할 수도 있습니다.
+더 많은 예시와 기법이 실제 세계 응용 프로그램에 적용되는 방법을 보여주는 [이 게시물](https://github.blog/2023-09-27-how-i-used-github-copilot-chat-to-build-a-reactjs-gallery-prototype/?)과 같은 게시물을 찾아보기 위해 [Engineering 블로그](https://github.blog/category/engineering/?)를 참조할 수도 있습니다.
 
 ---
 
@@ -181,7 +181,7 @@ Illustrated with examples.
 
 ### 기본 프롬프트
 
-먼저 기본 프롬프트부터 시작해보겠습니다. 이는 다른 맥락 없이 모델에게 보내지는 텍스트 입력입니다. 예를 들어, OpenAI [Completion API](https://platform.openai.com/docs/api-reference/completions?WT.mc_id=academic-105485-koreyst)에 미국 국가 애국가의 처음 몇 단어를 보내면 모델은 즉시 다음 몇 줄을 포함한 응답을 _완성_ 합니다. 이는 기본적인 예측 동작을 보여줍니다.
+먼저 기본 프롬프트부터 시작해보겠습니다. 이는 다른 맥락 없이 모델에게 보내지는 텍스트 입력입니다. 예를 들어, OpenAI [Completion API](https://platform.openai.com/docs/api-reference/completions?)에 미국 국가 애국가의 처음 몇 단어를 보내면 모델은 즉시 다음 몇 줄을 포함한 응답을 _완성_ 합니다. 이는 기본적인 예측 동작을 보여줍니다.
 
 | 프롬프트 (입력)    | 완성 (출력)                                                                                         |
 | :----------------- | :-------------------------------------------------------------------------------------------------- |
@@ -189,7 +189,7 @@ Illustrated with examples.
 
 ### 복잡한 프롬프트
 
-이제 그 기본 프롬프트에 맥락과 지침을 추가해보겠습니다. [Chat Completion API](https://learn.microsoft.com/azure/ai-services/openai/how-to/chatgpt?WT.mc_id=academic-105485-koreyst)를 사용하면 _사용자_ 입력과 _어시스턴트_ 응답을 반영하는 입력/출력 쌍과 어시스턴트의 동작이나 성격을 설정하는 시스템 메시지로 구성된 복잡한 프롬프트를 만들 수 있습니다.
+이제 그 기본 프롬프트에 맥락과 지침을 추가해보겠습니다. [Chat Completion API](https://learn.microsoft.com/azure/ai-services/openai/how-to/chatgpt?)를 사용하면 _사용자_ 입력과 _어시스턴트_ 응답을 반영하는 입력/출력 쌍과 어시스턴트의 동작이나 성격을 설정하는 시스템 메시지로 구성된 복잡한 프롬프트를 만들 수 있습니다.
 
 아래의 요청은 _토큰화_ 를 통해 맥락과 대화에서 관련 정보를 효과적으로 포착합니다. 이제 시스템 맥락을 변경하는 것은 사용자 입력과 마찬가지로 완성 품질에 큰 영향을 미칠 수 있습니다.
 
@@ -268,11 +268,11 @@ response = openai.chat.completions.create(
 
 ### 프롬프트 템플릿
 
-프롬프트 템플릿은 필요에 따라 저장하고 재사용할 수 있는 *프롬프트를 위한 미리 정의된 레시피*입니다. 가장 간단한 형태에서는 [OpenAI의 예시](https://platform.openai.com/examples?WT.mc_id=academic-105485-koreyst)와 같이 상호작용 프롬프트 구성 요소(사용자 및 시스템 메시지)와 API 기반 요청 형식을 모두 제공하여 재사용을 지원합니다.
+프롬프트 템플릿은 필요에 따라 저장하고 재사용할 수 있는 *프롬프트를 위한 미리 정의된 레시피*입니다. 가장 간단한 형태에서는 [OpenAI의 예시](https://platform.openai.com/examples?)와 같이 상호작용 프롬프트 구성 요소(사용자 및 시스템 메시지)와 API 기반 요청 형식을 모두 제공하여 재사용을 지원합니다.
 
-[LangChain의 예시](https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/?WT.mc_id=academic-105485-koreyst)와 같이 더 복잡한 형태에서는 _플레이스홀더_ 를 포함하여 다양한 소스(사용자 입력, 시스템 컨텍스트, 외부 데이터 소스 등)의 데이터로 교체하여 동적으로 프롬프트를 생성할 수 있습니다. 이를 통해 규모에 맞게 일관된 사용자 경험을 **프로그래밍 방식**으로 구현할 수 있는 재사용 가능한 프롬프트 라이브러리를 만들 수 있습니다.
+[LangChain의 예시](https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/?)와 같이 더 복잡한 형태에서는 _플레이스홀더_ 를 포함하여 다양한 소스(사용자 입력, 시스템 컨텍스트, 외부 데이터 소스 등)의 데이터로 교체하여 동적으로 프롬프트를 생성할 수 있습니다. 이를 통해 규모에 맞게 일관된 사용자 경험을 **프로그래밍 방식**으로 구현할 수 있는 재사용 가능한 프롬프트 라이브러리를 만들 수 있습니다.
 
-마지막으로, 템플릿의 실제 가치는 이제 프롬프트 템플릿이 응용 프로그램별 컨텍스트나 응용 프로그램 특정 예시를 반영하여 응답을 더 관련성 있고 정확하게 만드는 _프롬프트 라이브러리_ 를 생성하고 게시할 수 있는 능력에 있습니다. [Prompts For Edu](https://github.com/microsoft/prompts-for-edu?WT.mc_id=academic-105485-koreyst) 저장소는 이 접근 방식의 훌륭한 예로, 교육 분야에 대한 프롬프트 라이브러리를 선별하여 수업 계획, 커리큘럼 설계, 학생 지도 등과 같은 주요 목표에 중점을 둡니다.
+마지막으로, 템플릿의 실제 가치는 이제 프롬프트 템플릿이 응용 프로그램별 컨텍스트나 응용 프로그램 특정 예시를 반영하여 응답을 더 관련성 있고 정확하게 만드는 _프롬프트 라이브러리_ 를 생성하고 게시할 수 있는 능력에 있습니다. [Prompts For Edu](https://github.com/microsoft/prompts-for-edu?) 저장소는 이 접근 방식의 훌륭한 예로, 교육 분야에 대한 프롬프트 라이브러리를 선별하여 수업 계획, 커리큘럼 설계, 학생 지도 등과 같은 주요 목표에 중점을 둡니다.
 
 ## 보조 콘텐츠
 
@@ -315,7 +315,7 @@ Illustrate it with some exercises.
 
 ## 모범 사례
 
-이제 [Open AI](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?WT.mc_id=academic-105485-koreyst)와 [Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering#best-practices?WT.mc_id=academic-105485-koreyst) 전문가들이 권장하는 일반적인 모범 사례를 살펴보겠습니다.
+이제 [Open AI](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?)와 [Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering#best-practices?) 전문가들이 권장하는 일반적인 모범 사례를 살펴보겠습니다.
 
 | 항목                                      | 이유                                                                                                                                                                                                               |
 | :---------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -387,4 +387,4 @@ A: 2번입니다. 이 프롬프트는 "무엇"에 대한 세부 정보를 제공
 
 ## 훌륭합니다! 계속해서 학습하세요
 
-5번 레슨으로 이동하여 [고급 프롬프트 생성](../../../05-advanced-prompts/translations/ko/README.md?WT.mc_id=academic-105485-koreyst)을 살펴보세요!
+5번 레슨으로 이동하여 [고급 프롬프트 생성](../../../05-advanced-prompts/translations/ko/README.md?)을 살펴보세요!

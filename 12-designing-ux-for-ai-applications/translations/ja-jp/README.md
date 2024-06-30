@@ -1,6 +1,6 @@
 # AI アプリケーションの UX 設計
 
-[![Designing UX for AI Applications](../../images/12-lesson-banner.png?WT.mc_id=academic-105485-yoterada)](https://aka.ms/gen-ai-lesson12-gh?WT.mc_id=academic-105485-koreyst)
+[![Designing UX for AI Applications](../../images/12-lesson-banner.png?WT.mc_id=academic-105485-yoterada)](https://aka.ms/gen-ai-lesson12-gh?)
 
 > _(上の画像をクリックすると、このレッスンのビデオが表示されます)_
 
@@ -77,11 +77,11 @@ AI が将来の世代に知識を伝えるなどの意思決定で役立つ場�
 
 生成 AI は、利用者と AI が協力する関係を作り出します。例えば、利用者は異なる結果を得るためにプロンプトを通じて指示を変更します。さらに、一度結果が出力された後、利用者はその結果を修正し、自分がコントロールしている感覚を得られます。例えば、Bing を使用する際、形式やトーン、長さに応じてプロンプトによる指示をカスタマイズします。そして、出力に変更を加え、下記のように出力結果を調整できます。
 
-![Bing search results with options to modify the prompt and output](../../images/bing1.png?WT.mc_id=academic-105485-yoterada "Bing search results with options to modify the prompt and output")
+![Bing search results with options to modify the prompt and output](../../images/bing1.png?WT.mc_id=academic-105485-yoterada 'Bing search results with options to modify the prompt and output')
 
 Bing には、利用者がアプリケーションを自分で操作できる機能として、AI が使用するデータの選択（オプトイン）や選択解除（オプトアウト）できる機能があります。例えば、学校のアプリケーションでは、学生は自分のノートや教師の教材を復習資料として利用したいと思うかもしれません。
 
-![Bing search results with options to modify the prompt and output](../../images/bing2.png?WT.mc_id=academic-105485-yoterada "Bing search results with options to modify the prompt and output")
+![Bing search results with options to modify the prompt and output](../../images/bing2.png?WT.mc_id=academic-105485-yoterada 'Bing search results with options to modify the prompt and output')
 
 > AI アプリケーションを設計する際、利用者が AI の能力について非現実的な期待を持ちすぎないようにするためには、意図的な設計が重要です。これを実現する一つの方法は、プロンプトによる指示と結果の間にある種の隔たりを作り出します。これにより、利用者に対して、相手が AI であり人間ではないのを思い出させます。
 

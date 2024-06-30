@@ -2,7 +2,7 @@
 
 ## Criando Aplicações Chat com IA Generativa
 
-[![Building Generative AI-Powered Chat Applications](../../images/07-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lessons7-gh?WT.mc_id=academic-105485-koreyst)
+[![Building Generative AI-Powered Chat Applications](../../images/07-lesson-banner.png?)](https://aka.ms/gen-ai-lessons7-gh?)
 
 > _(Clique na imagem acima para ver o vídeo da lição)_
 
@@ -14,7 +14,7 @@ Algumas perguntas que precisamos responder são:
 
 - **Criação de um aplicativo**: Como podemos criar de forma eficiente e integrar de maneira transparente esses aplicativos impulsionados por IA para casos de uso específicos?
 
-- **Monitoramento**: Uma vez implantados, como podemos monitorar e garantir que os aplicativos estejam operando no mais alto nível de qualidade, tanto em termos de funcionalidade quanto na aderência aos [seis princípios de IA responsável](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-105485-koreyst)?
+- **Monitoramento**: Uma vez implantados, como podemos monitorar e garantir que os aplicativos estejam operando no mais alto nível de qualidade, tanto em termos de funcionalidade quanto na aderência aos [seis princípios de IA responsável](https://www.microsoft.com/ai/responsible-ai?)?
 
 À medida que avançamos para uma era definida pela automação e interações homem-máquina sem emendas, entender como a IA generativa transforma o escopo, a profundidade e a adaptabilidade dos aplicativos de chat torna-se essencial. Esta lição investigará os aspectos da arquitetura que suportam esses sistemas intricados, explorará as metodologias para ajustá-los para tarefas específicas de domínio e avaliará as métricas e considerações pertinentes para garantir a implantação responsável de IA.
 
@@ -66,7 +66,7 @@ Ao criar uma aplicação de chat, um ótimo primeiro passo é avaliar o que já 
 
 - **Acesso a tecnologia de ponta**: Alavancar modelos que foram ajustados e treinados em conjuntos de dados extensivos proporciona à sua aplicação capacidades de linguagem natural.
 
-Acesso à funcionalidade de um SDK ou API geralmente envolve a obtenção de permissão para usar os serviços fornecidos, frequentemente por meio do uso de uma chave única ou token de autenticação. Utilizaremos a Biblioteca Python da OpenAI para explorar como isso é feito. Você também pode experimentar por conta própria no seguinte [notebook para OpenAI](../../python/oai-assigment-simple.ipynb?WT.mc_id=academic-105485-koreyst) ou [Notebook para Serviços Azure OpenAI](../../python/aoai-assignment.ipynb?WT.mc_id=academic-105485-koreys) para esta lição.
+Acesso à funcionalidade de um SDK ou API geralmente envolve a obtenção de permissão para usar os serviços fornecidos, frequentemente por meio do uso de uma chave única ou token de autenticação. Utilizaremos a Biblioteca Python da OpenAI para explorar como isso é feito. Você também pode experimentar por conta própria no seguinte [notebook para OpenAI](../../python/oai-assigment-simple.ipynb?) ou [Notebook para Serviços Azure OpenAI](../../python/aoai-assignment.ipynb?WT.mc_id=academic-105485-koreys) para esta lição.
 
 ```python
 import os
@@ -99,15 +99,15 @@ Os princípios gerais de UX se aplicam aos aplicativos de chat. Porém, aqui est
 
 Um exemplo de personalização é o ajuste de "Instruções Personalizadas" no ChatGPT da OpenAI. Ele permite que você forneça informações sobre si mesmo que podem ser um contexto importante para seus prompts. Aqui está um exemplo de uma instrução personalizada.
 
-![Custom Instructions Settings in ChatGPT](../../images/custom-instructions.png?WT.mc_id=academic-105485-koreyst)
+![Custom Instructions Settings in ChatGPT](../../images/custom-instructions.png?)
 
 Esse prompt "perfil" faz com que o ChatGPT crie um plano de aula sobre listas vinculadas. Observe que o ChatGPT leva em consideração que o usuário pode querer um plano de aula mais aprofundado com base em sua experiência.
 
-![A prompt in ChatGPT for a lesson plan about linked lists](../../images/lesson-plan-prompt.png?WT.mc_id=academic-105485-koreyst)
+![A prompt in ChatGPT for a lesson plan about linked lists](../../images/lesson-plan-prompt.png?)
 
 ### Estrutura de Mensagens do Sistema da Microsoft para Grandes Modelos de Linguagem
 
-[Microsoft has provided guidance](https://learn.microsoft.com/azure/ai-services/openai/concepts/system-message#define-the-models-output-format?WT.mc_id=academic-105485-koreyst) para escrever mensagens de sistema eficazes ao gerar respostas de LLMs divididas em 4 áreas:
+[Microsoft has provided guidance](https://learn.microsoft.com/azure/ai-services/openai/concepts/system-message#define-the-models-output-format?) para escrever mensagens de sistema eficazes ao gerar respostas de LLMs divididas em 4 áreas:
 
 1. Definindo para quem o modelo se destina, assim como suas capacidades e limitações.
 2. Definindo o formato de saída do modelo.
@@ -188,10 +188,10 @@ A abordagem da Microsoft para a IA Responsável identificou seis princípios que
 
 ## Tarefa
 
-Veja a [tarefa](../../python?WT.mc_id=academic-105485-koreyst) que o levará por uma série de exercícios, desde a execução de seus primeiros prompts de chat até a classificação e resumo de texto e muito mais.
+Veja a [tarefa](../../python?) que o levará por uma série de exercícios, desde a execução de seus primeiros prompts de chat até a classificação e resumo de texto e muito mais.
 
 ## Excelente Trabalho! Continue no Aprendizado!
 
-Depois de concluir esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para continuar a aprimorar seus conhecimentos sobre IA generativa!
+Depois de concluir esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?) para continuar a aprimorar seus conhecimentos sobre IA generativa!
 
-Agora, vamos seguir para a Lição 8 para ver como você pode começar a [criar aplicativos de pesquisa](../../../08-building-search-applications/translations/pt-br/README.md?WT.mc_id=academic-105485-koreyst)!
+Agora, vamos seguir para a Lição 8 para ver como você pode começar a [criar aplicativos de pesquisa](../../../08-building-search-applications/translations/pt-br/README.md?)!

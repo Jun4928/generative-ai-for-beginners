@@ -1,6 +1,6 @@
 # 高度なプロンプトの作成
 
-[![高度なプロンプトの作成](../../images/05-lesson-banner.png?WT.mc_id=academic-105485-yoterada)](https://aka.ms/gen-ai-lesson5-gh?WT.mc_id=academic-105485-koreyst)
+[![高度なプロンプトの作成](../../images/05-lesson-banner.png?WT.mc_id=academic-105485-yoterada)](https://aka.ms/gen-ai-lesson5-gh?)
 
 前章までの学習内容をいくつかおさらいしましょう。
 
@@ -618,7 +618,7 @@ if __name__ == '__main__':
 > [!TIP]
 > プロンプトの改善を求める際、対象となる改善項目を制限すると効果が高まります。また、アーキテクチャ、パフォーマンス、セキュリティといった特定の観点から改善を求めるアプローチも有効です。
 
-[Solution](../../python/aoai-solution.py?WT.mc_id=academic-105485-koreyst)
+[Solution](../../python/aoai-solution.py?)
 
 ## 知識チェック
 

@@ -1,6 +1,6 @@
 # Function Calling과 통합하기
 
-[![Integrating with function calling](../../images/11-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson11-gh?WT.mc_id=academic-105485-koreyst)
+[![Integrating with function calling](../../images/11-lesson-banner.png?)](https://aka.ms/gen-ai-lesson11-gh?)
 
 지금까지 이전 레슨에서 많은 것을 배웠습니다. 그러나 더 나아갈 수 있습니다. 우리가 해결할 수 있는 몇 가지 문제는 응답 형식을 더 일관되게 만들어 응답을 더 쉽게 처리할 수 있도록 하는 것이며, 또한 응용 프로그램을 더 풍부하게 만들기 위해 다른 소스에서 데이터를 추가할 수도 있습니다.
 
@@ -45,7 +45,7 @@ function calling은 다음과 같은 제한 사항을 극복하기 위한 Azure 
 
 ## 시나리오를 통해 문제 설명하기
 
-> 아래 시나리오를 실행하려면 [제공된 노트북](../../aoai-assignment.ipynb?WT.mc_id=academic-105485-koreyst)을 사용하는 것을 권장합니다. 문제를 설명하기 위해 함수가 문제를 해결하는 데 도움이 되는 시나리오를 보여주려고 하므로 읽기만 해도 됩니다.
+> 아래 시나리오를 실행하려면 [제공된 노트북](../../aoai-assignment.ipynb?)을 사용하는 것을 권장합니다. 문제를 설명하기 위해 함수가 문제를 해결하는 데 도움이 되는 시나리오를 보여주려고 하므로 읽기만 해도 됩니다.
 
 응답 형식 문제를 보여주는 예제를 살펴보겠습니다:
 
@@ -170,7 +170,7 @@ function calling은 다음과 같은 제한 사항을 극복하기 위한 Azure 
 
    그렇다면 포맷팅 문제를 어떻게 해결할까요? functional calling을 사용하여 구조화된 데이터를 받을 수 있도록 할 수 있습니다. function calling을 사용할 때, LLM은 실제로 함수를 호출하거나 실행하지 않습니다. 대신, LLM에게 응답을 따르기 위한 구조를 만듭니다. 그런 다음, 우리는 응답을 사용하여 응용 프로그램에서 어떤 함수를 실행할지 알 수 있습니다.
 
-![function flow](../../images/Function-Flow.png?WT.mc_id=academic-105485-koreyst)
+![function flow](../../images/Function-Flow.png?)
 
 함수에서 반환된 값을 가져와서 LLM에게 다시 전송할 수 있습니다. 그럼 LLM은 자연어를 사용하여 사용자의 질문에 답변합니다.
 
@@ -192,7 +192,7 @@ Function Call을 생성하는 과정은 다음 3단계로 이루어집니다:
 2. 모델의 응답을 **읽어** 함수를 실행하거나 API 호출을 수행합니다.
 3. 함수의 응답을 사용하여 사용자에게 응답을 생성하기 위해 Chat Completions API에 **다시 호출**합니다.
 
-![LLM Flow](../../images/LLM-Flow.png?WT.mc_id=academic-105485-koreyst)
+![LLM Flow](../../images/LLM-Flow.png?)
 
 ### 단계 1 - 메시지 생성
 
@@ -449,10 +449,10 @@ Azure Open AI Function Calling 학습을 계속 진행하기 위해 다음을 �
 - 학습자의 모국어와 같은 추가 정보를 받아들이는 다른 function call을 생성하세요.
 - function call 및/또는 API 호출이 적합한 강의를 반환하지 않을 경우 오류 처리를 만들어보세요.
 
-힌트: [Learn API 참조 문서](https://learn.microsoft.com/training/support/catalog-api-developer-reference?WT.mc_id=academic-105485-koreyst) 페이지를 참고하여 이 데이터가 어떻게 사용 가능한지 확인하세요.
+힌트: [Learn API 참조 문서](https://learn.microsoft.com/training/support/catalog-api-developer-reference?) 페이지를 참고하여 이 데이터가 어떻게 사용 가능한지 확인하세요.
 
 ## 훌륭합니다! 계속해서 학습하세요
 
-이 레슨을 완료한 후, [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)을 확인하여 Generative AI 지식을 더욱 향상시킬 수 있습니다!
+이 레슨을 완료한 후, [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?)을 확인하여 Generative AI 지식을 더욱 향상시킬 수 있습니다!
 
-12번 레슨으로 이동하여 [AI 애플리케이션을 위한 UX 디자인](../../../12-designing-ux-for-ai-applications/translations/ko/README.md?WT.mc_id=academic-105485-koreyst)에 대해 알아보세요!
+12번 레슨으로 이동하여 [AI 애플리케이션을 위한 UX 디자인](../../../12-designing-ux-for-ai-applications/translations/ko/README.md?)에 대해 알아보세요!

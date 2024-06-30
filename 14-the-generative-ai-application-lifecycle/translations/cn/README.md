@@ -1,4 +1,4 @@
-[![Integrating with function calling](../../images/14-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson14-gh?WT.mc_id=academic-105485-koreyst)
+[![Integrating with function calling](../../images/14-lesson-banner.png?)](https://aka.ms/gen-ai-lesson14-gh?)
 
 # 生成式 AI 应用生命周期
 
@@ -49,7 +49,7 @@
 
 这个过程可能看起来复杂，让我们先关注三个主要步骤：
 
-1. 构思/探索：在这里，我们可以根据业务需求进行探索。原型设计，创建[PromptFlow](https://microsoft.github.io/promptflow/index.html?WT.mc_id=academic-105485-koreyst)，并测试其是否足够有效来验证我们的假设。
+1. 构思/探索：在这里，我们可以根据业务需求进行探索。原型设计，创建[PromptFlow](https://microsoft.github.io/promptflow/index.html?)，并测试其是否足够有效来验证我们的假设。
 2. 构建/增强：现在开始评估更大的数据集并实施技术，如微调和 RAG，以检验我们的解决方案的稳健性。如果不符合要求，重新实施、添加新的流程步骤或重组数据可能会有所帮助。经过流程和规模测试后，如果一切顺利并满足我们的指标，就准备进入下一个阶段。
 3. 运营化：集成监控和警报系统到我们的系统，部署和应用程序集成。
 
@@ -61,7 +61,7 @@
 
 ## 生命周期工具
 
-Microsoft 提供的[Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreys)和[PromptFlow](https://microsoft.github.io/promptflow/index.html?WT.mc_id=academic-105485-koreyst)，简化了生命周期的实施，让你的应用快速上线。
+Microsoft 提供的[Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreys)和[PromptFlow](https://microsoft.github.io/promptflow/index.html?)，简化了生命周期的实施，让你的应用快速上线。
 
 通过[Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreys)，你可以利用[AI Studio](https://ai.azure.com/?WT.mc_id=academic-105485-koreys)。AI Studio 是一个网页门户，让你可以探索模型、示例和工具，管理资源，进行 UI 开发流程，以及提供 SDK/CLI 选项进行代码优先开发。
 
@@ -80,6 +80,6 @@ Azure AI 让你可以使用多种资源，管理你的操作、服务、项目�
 
 ## 继续学习！
 
-通过[Contoso Chat App](https://nitya.github.io/contoso-chat/?WT.mc_id=academic-105485-koreyst)深入学习我们如何将这些概念应用于实际应用开发，并查看 Cloud Advocacy 如何在演示中加入这些概念。想要获取更多内容，不妨观看我们的[Ignite breakout session!](https://www.youtube.com/watch?v=DdOylyrTOWg)
+通过[Contoso Chat App](https://nitya.github.io/contoso-chat/?)深入学习我们如何将这些概念应用于实际应用开发，并查看 Cloud Advocacy 如何在演示中加入这些概念。想要获取更多内容，不妨观看我们的[Ignite breakout session!](https://www.youtube.com/watch?v=DdOylyrTOWg)
 
-接下来，通过第 15 课，了解[检索增强生成和向量数据库](../../../15-rag-and-vector-databases/README.md?WT.mc_id=academic-105485-koreyst)如何影响生成式 AI，使应用更加吸引用户！
+接下来，通过第 15 课，了解[检索增强生成和向量数据库](../../../15-rag-and-vector-databases/README.md?)如何影响生成式 AI，使应用更加吸引用户！

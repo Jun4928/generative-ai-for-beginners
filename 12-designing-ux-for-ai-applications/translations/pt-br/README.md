@@ -1,6 +1,6 @@
 # Projetando UX para aplicativos de IA
 
-[![Designing UX for AI Applications](../../images/12-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson12-gh?WT.mc_id=academic-105485-koreyst)
+[![Designing UX for AI Applications](../../images/12-lesson-banner.png?)](https://aka.ms/gen-ai-lesson12-gh?)
 
 > _(Clique na imagem acima para assistir ao vídeo desta lição)_
 
@@ -25,7 +25,7 @@ Após esta lição, você será capaz de:
 
 ### Pré-requisito
 
-Dedique um tempo para ler mais sobre [experiência do usuário e design thinking.](https://learn.microsoft.com/training/modules/ux-design?WT.mc_id=academic-105485-koreyst)
+Dedique um tempo para ler mais sobre [experiência do usuário e design thinking.](https://learn.microsoft.com/training/modules/ux-design?)
 
 ## Introdução à Experiência do Usuário e Compreensão das Necessidades do Usuário
 
@@ -49,7 +49,7 @@ Ser acessível significa estender a experiência do usuário a usuários com vá
 
 Ser agradável significa que a aplicação é agradável de usar. Uma experiência do usuário atraente pode ter um impacto positivo no usuário, incentivando-os a retornar à aplicação e aumentando a receita do negócio.
 
-![imagem ilustrando considerações de UX em IA](../../images/uxinai.png?WT.mc_id=academic-105485-koreyst)
+![imagem ilustrando considerações de UX em IA](../../images/uxinai.png?)
 
 Nem todo desafio pode ser resolvido com IA. A IA entra para aprimorar sua experiência do usuário, seja automatizando tarefas manuais ou personalizando experiências do usuário.
 
@@ -63,25 +63,25 @@ Duas maneiras de garantir que a confiança esteja no centro do design são expli
 
 Quando a IA ajuda a informar decisões, como transmitir conhecimento às futuras gerações, é fundamental que professores e pais entendam como as decisões da IA são tomadas. Isso é explicabilidade - entender como as aplicações de IA tomam decisões. Projetar para explicabilidade inclui adicionar detalhes de exemplos do que uma aplicação de IA pode fazer. Por exemplo, em vez de "Comece com o professor de IA", o sistema pode usar: "Resuma suas anotações para uma revisão mais fácil usando a IA."
 
-![uma página inicial do aplicativo com uma ilustração clara da explicabilidade em aplicações de IA](../../images/explanability-in-ai.png?WT.mc_id=academic-105485-koreyst)
+![uma página inicial do aplicativo com uma ilustração clara da explicabilidade em aplicações de IA](../../images/explanability-in-ai.png?)
 
 Outro exemplo é como a IA usa dados pessoais do usuário. Por exemplo, um usuário com a persona "aluno" pode ter limitações com base em sua persona. A IA pode não ser capaz de revelar respostas a perguntas, mas pode ajudar o usuário a pensar em como resolver um problema.
 
-![IA respondendo a perguntas com base na persona](../../images/solving-questions.png?WT.mc_id=academic-105485-koreyst)
+![IA respondendo a perguntas com base na persona](../../images/solving-questions.png?)
 
 A última parte importante da explicabilidade é a simplificação das explicações. Alunos e professores podem não ser especialistas em IA, portanto, as explicações do que a aplicação pode ou não pode fazer devem ser simplificadas e fáceis de entender.
 
-![explicações simplificadas sobre as capacidades da IA](../../images/simplified-explanations.png?WT.mc_id=academic-105485-koreyst)
+![explicações simplificadas sobre as capacidades da IA](../../images/simplified-explanations.png?)
 
 ### Controle
 
 A IA generativa cria uma colaboração entre a IA e o usuário, onde, por exemplo, um usuário pode modificar prompts para obter resultados diferentes. Além disso, uma vez que uma saída é gerada, os usuários devem poder modificar os resultados, dando-lhes uma sensação de controle. Por exemplo, ao usar o Bing, você pode personalizar seu prompt com base no formato, tom e comprimento. Além disso, você pode fazer alterações em sua saída e modificar o resultado, conforme mostrado abaixo:
 
-![resultados da pesquisa no Bing com opções para modificar o prompt e a saída](../../images/bing1.png?WT.mc_id=academic-105485-koreyst "Resultados da pesquisa no Bing com opções para modificar o prompt e a saída")
+![resultados da pesquisa no Bing com opções para modificar o prompt e a saída](../../images/bing1.png? 'Resultados da pesquisa no Bing com opções para modificar o prompt e a saída')
 
 Outro recurso no Bing que permite ao usuário ter controle sobre o aplicativo é a capacidade de escolher participar ou sair dos dados que a IA usa. Para um aplicativo escolar, um aluno pode querer usar suas anotações, bem como os recursos dos professores como material de revisão.
 
-![resultados da pesquisa no Bing com opções para modificar o prompt e a saída](../../images/bing2.png?WT.mc_id=academic-105485-koreyst "Resultados da pesquisa no Bing com opções para modificar o prompt e a saída")
+![resultados da pesquisa no Bing com opções para modificar o prompt e a saída](../../images/bing2.png? 'Resultados da pesquisa no Bing com opções para modificar o prompt e a saída')
 
 > Ao projetar aplicações de IA, a intencionalidade é fundamental para garantir que os usuários não confiem demais, estabelecendo expectativas irreais de suas capacidades. Uma maneira de fazer isso é criar atrito entre os prompts e os resultados, lembrando ao usuário que isso é IA e não um ser humano colega.
 
@@ -93,7 +93,7 @@ As aplicações de IA devem ser construídas para receber e fornecer feedback. I
 
 Outra maneira de lidar com isso é comunicar claramente as capacidades e limitações do sistema. Quando um usuário comete um erro solicitando algo além das capacidades da IA, também deve haver uma maneira de lidar com isso, como mostrado abaixo.
 
-![Dar feedback e lidar com erros](../../images/feedback-loops.png?WT.mc_id=academic-105485-koreyst)
+![Dar feedback e lidar com erros](../../images/feedback-loops.png?)
 
 Erros do sistema são comuns em aplicativos nos quais o usuário pode precisar de assistência com informações fora do escopo da IA ou o aplicativo pode ter um limite de quantas perguntas/assuntos um usuário pode gerar resumos. Por exemplo, um aplicativo de IA treinado com dados em assuntos limitados, como História e Matemática, pode não conseguir lidar com perguntas sobre Geografia. Para mitigar isso, o sistema de IA pode dar uma resposta como: "Desculpe, nosso produto foi treinado com dados nos seguintes assuntos..., não consigo responder à pergunta que você fez."
 
@@ -117,6 +117,6 @@ Ao considerar a implementação dos passos abaixo na sua aplicação de IA, voc�
 
 ## Parabéns! Você concluiu este curso
 
-Após concluir esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para continuar a aprimorar seus conhecimentos sobre IA generativa!
+Após concluir esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?) para continuar a aprimorar seus conhecimentos sobre IA generativa!
 
-Parabéns! Você concluiu este curso! A criação de aplicações em IA Generativa não deve parar por aqui. Esperançosamente, você foi inspirado a começar a criar sua própria startup de IA generativa. Vá para o [Microsoft Founders Hub](https://aka.ms/genai-foundershub?WT.mc_id=academic-105485-koreyst) e inscreva-se no programa para receber suporte em sua jornada.
+Parabéns! Você concluiu este curso! A criação de aplicações em IA Generativa não deve parar por aqui. Esperançosamente, você foi inspirado a começar a criar sua própria startup de IA generativa. Vá para o [Microsoft Founders Hub](https://aka.ms/genai-foundershub?) e inscreva-se no programa para receber suporte em sua jornada.

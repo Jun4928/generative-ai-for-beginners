@@ -1,6 +1,6 @@
 # 第六章：创建文本生成应用
 
-[![Building Text Generation Applications](../../images/06-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson6-gh?WT.mc_id=academic-105485-koreyst)
+[![Building Text Generation Applications](../../images/06-lesson-banner.png?)](https://aka.ms/gen-ai-lesson6-gh?)
 
 > _(点击该图片看本章导学视频)_
 
@@ -86,20 +86,20 @@ pip install openai
 
 您需要执行以下步骤：
 
-- 在 Azure [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/?WT.mc_id=academic-105485-koreyst) 上创建帐户。
-- 访问 Azure Open AI。 进入到 [https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai?WT.mc_id=academic-105485-koreyst) 并请求访问权限。
+- 在 Azure [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/?) 上创建帐户。
+- 访问 Azure Open AI。 进入到 [https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai?) 并请求访问权限。
 
   > [!注意]
   > 您需要申请访问 Azure Open AI Service 的访问。
 
 - 安装 Python <https://www.python.org/>
-- 已创建 Azure OpenAI 服务。 请参阅本指南，了解如何[创建资源](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal?WT.mc_id=academic-105485-koreyst).
+- 已创建 Azure OpenAI 服务。 请参阅本指南，了解如何[创建资源](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal?).
 
 ### 添加 API key and endpoint
 
 您需要告诉“openai”库要使用什么 API key。 要查找 API key ，请转到创建好的 Azure Open AI Service 中的 "Keys and Endpoint"部分并复制 "Key 1" 值。
 
-![Keys and Endpoint resource blade in Azure Portal](https://learn.microsoft.com/azure/ai-services/openai/media/quickstarts/endpoint.png?WT.mc_id=academic-105485-koreyst)
+![Keys and Endpoint resource blade in Azure Portal](https://learn.microsoft.com/azure/ai-services/openai/media/quickstarts/endpoint.png?)
 
 复制 Key 后，让我们调用库使用它。
 
@@ -173,7 +173,7 @@ print(completion.choices[0].message.content)
    > 如果您使用的是 Windows，请输入 `venv\Scripts\activate` 而不是 `source venv/bin/activate`。
 
    > [!注意]
-   > 转至 [https://portal.azure.com/](https://portal.azure.com/?WT.mc_id=academic-105485-koreyst) 找到您的 Azure Open AI Key ,在资源中搜索“Open AI” `并选择“打开 AI 资源”，然后选择`Keys and Endpoint`并复制`Key 1` 值。
+   > 转至 [https://portal.azure.com/](https://portal.azure.com/?) 找到您的 Azure Open AI Key ,在资源中搜索“Open AI” `并选择“打开 AI 资源”，然后选择`Keys and Endpoint`并复制`Key 1` 值。
 
 2. 创建 _app.py_ 文件并添加以下代码:
 
@@ -653,6 +653,6 @@ A: 1
 
 ## 继续学习
 
-想要了解有关创建文本生成应用的更多信息？ 转至[进阶学习的页面](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) 查找有关此主章节的其他学习资源。
+想要了解有关创建文本生成应用的更多信息？ 转至[进阶学习的页面](https://aka.ms/genai-collection?) 查找有关此主章节的其他学习资源。
 
-前往第七章，我们将学习[构建聊天应用程序](../../../07-building-chat-applications/translations/cn/README.md?WT.mc_id=academic-105485-koreyst)
+前往第七章，我们将学习[构建聊天应用程序](../../../07-building-chat-applications/translations/cn/README.md?)

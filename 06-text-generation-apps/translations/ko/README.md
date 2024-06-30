@@ -1,6 +1,6 @@
 # 텍스트 생성 애플리케이션 개발
 
-[![Building Text Generation Applications](../../images/06-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson6-gh?WT.mc_id=academic-105485-koreyst)
+[![Building Text Generation Applications](../../images/06-lesson-banner.png?)](https://aka.ms/gen-ai-lesson6-gh?)
 
 > _(위의 이미지를 클릭하여 이 수업의 동영상을 시청하세요.)_
 
@@ -86,20 +86,20 @@ pip install openai
 
 다음 단계를 수행해야 합니다:
 
-- Azure에 계정을 만듭니다. [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/?WT.mc_id=academic-105485-koreyst)에서 계정을 만드세요.
-- Azure Open AI에 액세스 권한을 얻으세요. [https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai?WT.mc_id=academic-105485-koreyst)로 이동하여 액세스를 요청하세요.
+- Azure에 계정을 만듭니다. [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/?)에서 계정을 만드세요.
+- Azure Open AI에 액세스 권한을 얻으세요. [https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai?)로 이동하여 액세스를 요청하세요.
 
 > [!NOTE]
 > 작성 시점에서 Azure Open AI에 대한 액세스 신청이 필요합니다.
 
 - Python을 설치합니다. <https://www.python.org/>
-- Azure OpenAI 서비스 리소스를 생성했습니다. [리소스 생성 가이드](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal?WT.mc_id=academic-105485-koreyst)를 참조하세요.
+- Azure OpenAI 서비스 리소스를 생성했습니다. [리소스 생성 가이드](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal?)를 참조하세요.
 
 ### API 키와 엔드포인트 찾기
 
 이 시점에서 `openai` 라이브러리에 사용할 API 키를 알려야 합니다. API 키를 찾으려면 Azure Open AI 리소스의 "Keys and Endpoint" 섹션으로 이동하고 "Key 1" 값을 복사하세요.
 
-![Azure Portal의 Keys and Endpoint 리소스 블레이드](https://learn.microsoft.com/azure/ai-services/openai/media/quickstarts/endpoint.png?WT.mc_id=academic-105485-koreyst)
+![Azure Portal의 Keys and Endpoint 리소스 블레이드](https://learn.microsoft.com/azure/ai-services/openai/media/quickstarts/endpoint.png?)
 
 이제 이 정보를 복사했으니, 라이브러리에 사용하도록 지시합시다.
 
@@ -173,7 +173,7 @@ print(completion.choices[0].message.content)
 > Windows를 사용하는 경우 `source venv/bin/activate` 대신 `venv\Scripts\activate`를 입력하세요.
 
 > [!NOTE]
-> Azure Open AI 키를 찾으려면 [https://portal.azure.com/](https://portal.azure.com/?WT.mc_id=academic-105485-koreyst)로 이동하여 `Open AI`를 검색한 다음 `Open AI 리소스`를 선택하고 `Keys and Endpoint`를 선택하고 `Key 1` 값을 복사하세요.
+> Azure Open AI 키를 찾으려면 [https://portal.azure.com/](https://portal.azure.com/?)로 이동하여 `Open AI`를 검색한 다음 `Open AI 리소스`를 선택하고 `Keys and Endpoint`를 선택하고 `Key 1` 값을 복사하세요.
 
 1. _app.py_ 파일을 생성하고 다음 코드를 추가하세요:
 
@@ -648,6 +648,6 @@ temperature 개념은 무엇을 하는 역할인가요?
 
 ## 수고하셨습니다! 학습을 계속하세요
 
-이 수업을 완료한 후에는 [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)을 확인하여 Generative AI 지식을 더욱 향상시킬 수 있습니다!
+이 수업을 완료한 후에는 [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?)을 확인하여 Generative AI 지식을 더욱 향상시킬 수 있습니다!
 
-7번 수업으로 이동하여 [채팅 애플리케이션을 구축하는 방법](../../../07-building-chat-applications/translations/ko/README.md?WT.mc_id=academic-105485-koreyst)을 살펴보세요!
+7번 수업으로 이동하여 [채팅 애플리케이션을 구축하는 방법](../../../07-building-chat-applications/translations/ko/README.md?)을 살펴보세요!

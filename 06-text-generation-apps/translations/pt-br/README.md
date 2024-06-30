@@ -1,6 +1,6 @@
 # Desenvolvendo Aplicativos de Geração de Texto
 
-[![Building Text Generation Applications](../../images/06-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson6-gh?WT.mc_id=academic-105485-koreyst)
+[![Building Text Generation Applications](../../images/06-lesson-banner.png?)](https://aka.ms/gen-ai-lesson6-gh?)
 
 > _(Clique na imagem acima para assistir ao vídeo desta lição)_
 
@@ -86,20 +86,20 @@ pip install openai
 
 Você precisa realizar as seguintes etapas:
 
-- Criar uma conta no Azure [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/?WT.mc_id=academic-105485-koreyst).
-- Obter acesso ao Azure Open AI. Vá para [https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai?WT.mc_id=academic-105485-koreyst) e solicite acesso.
+- Criar uma conta no Azure [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/?).
+- Obter acesso ao Azure Open AI. Vá para [https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai](https://learn.microsoft.com/azure/ai-services/openai/overview#how-do-i-get-access-to-azure-openai?) e solicite acesso.
 
   > [!OBSERVAÇÃO]
   > Até o presente momento, você precisa solicitar acesso ao Azure Open AI.
 
 - Instale Python <https://www.python.org/>
-- Ter criado um recurso de serviço Azure OpenAI. Consulte este guia para saber como [criar um recurso](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal?WT.mc_id=academic-105485-koreyst).
+- Ter criado um recurso de serviço Azure OpenAI. Consulte este guia para saber como [criar um recurso](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal?).
 
 ### Localize a chave da API e o endpoint
 
 Neste ponto, você precisa informar à biblioteca `openai` qual chave de API usar. Para encontrar sua chave de API, vá para a seção "Chaves e Endpoint" de seu recurso Azure Open AI e copie o valor de "Chave 1".
 
-![Keys and Endpoint resource blade in Azure Portal](https://learn.microsoft.com/azure/ai-services/openai/media/quickstarts/endpoint.png?WT.mc_id=academic-105485-koreyst)
+![Keys and Endpoint resource blade in Azure Portal](https://learn.microsoft.com/azure/ai-services/openai/media/quickstarts/endpoint.png?)
 
 Agora que você tem essas informações copiadas, vamos instruir as bibliotecas a usá-las.
 
@@ -175,7 +175,7 @@ Agora que aprendemos a configurar o openai, é hora de criar o seu primeiro apli
    > Se você estiver usando o Windows, digite `venv\Scripts\activate` em vez de `source venv/bin/activate`.
 
    > [!OBSERVAÇÃO]
-   > Localize sua chave Azure Open AI acessando [https://portal.azure.com/](https://portal.azure.com/?WT.mc_id=academic-105485-koreyst) e pesquise por `Open AI` e selecione o `recurso Open AI` e depois selecione `Chaves e Endpoint` e copie o valor `Chave 1`.
+   > Localize sua chave Azure Open AI acessando [https://portal.azure.com/](https://portal.azure.com/?) e pesquise por `Open AI` e selecione o `recurso Open AI` e depois selecione `Chaves e Endpoint` e copie o valor `Chave 1`.
 
 1. Crie um arquivo _app.py_ e dê a ele o seguinte código:
 
@@ -661,6 +661,6 @@ Quando estiver trabalhando na tarefa, tente variar a temperatura, tente definir 
 
 ## Excelente trabalho! Continue seu aprendizado
 
-Após concluir esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para continuar a aprimorar seus conhecimentos sobre IA generativa!
+Após concluir esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?) para continuar a aprimorar seus conhecimentos sobre IA generativa!
 
-Vamos prosseguir para a Lição 7, onde veremos como [criar aplicativos de chat](../../../07-building-chat-applications/translations/pt-br/README.md?WT.mc_id=academic-105485-koreyst)!
+Vamos prosseguir para a Lição 7, onde veremos como [criar aplicativos de chat](../../../07-building-chat-applications/translations/pt-br/README.md?)!

@@ -1,6 +1,6 @@
 # 生成式 AI 初学者指南：第 13 章 - 保护 AI 应用
 
-[![保护您的AI应用](../../images/13-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson13-gh?WT.mc_id=academic-105485-koreyst)
+[![保护您的AI应用](../../images/13-lesson-banner.png?)](https://aka.ms/gen-ai-lesson13-gh?)
 
 ## 引言
 
@@ -47,19 +47,19 @@
 4. **后门攻击**：攻击者在训练数据中插入隐藏模式（后门），使模型在触发时表现出恶意行为。.\
    **示例**：通过训练含有后门的图像，使面部识别系统错误识别特定人物。
 
-MITRE 公司创建了[ATLAS(Adversarial Threat Landscape for Artificial-Intelligence Systems)](https://atlas.mitre.org/?WT.mc_id=academic-105485-koreyst)，一个记录对手在真实攻击 AI 系统中使用的策略和技术的知识库。
+MITRE 公司创建了[ATLAS(Adversarial Threat Landscape for Artificial-Intelligence Systems)](https://atlas.mitre.org/?)，一个记录对手在真实攻击 AI 系统中使用的策略和技术的知识库。
 
 > 随着 AI 技术的融合，AI 系统的漏洞数量增加，这超出了传统网络攻击的范畴。我们开发 ATLAS 的目的是提高对这些独特且不断演变的漏洞的认识，因为全球社区越来越多地将 AI 纳入各种系统中。ATLAS 参照 MITRE ATT&CK® 框架建立，其策略、技术和程序（TTPs）与 ATT&CK 中的内容相辅相成。
 
 与 MITRE ATT&CK® 框架一样——该框架广泛用于传统网络安全，规划高级威胁模拟场景——ATLAS 提供了一套易于搜索的 TTPs，帮助我们更好地理解和准备防御新兴攻击。
 
-Open Web Application Security Project (OWASP)还创建了一个“[前十大漏洞列表](https://llmtop10.com/?WT.mc_id=academic-105485-koreyst)”，列出了利用大型语言模型(LLMs)的应用程序中最关键的漏洞。列表强调了包括数据污染在内的威胁风险，以及其他风险，例如：
+Open Web Application Security Project (OWASP)还创建了一个“[前十大漏洞列表](https://llmtop10.com/?)”，列出了利用大型语言模型(LLMs)的应用程序中最关键的漏洞。列表强调了包括数据污染在内的威胁风险，以及其他风险，例如：
 
 - **提示注入**：通过精心设计的输入操纵大型语言模型(LLM)，使其偏离预期行为的技术。
 - **供应链漏洞**：构成 LLM 应用程序的组件和软件可能被威胁，导致意外结果、引入偏见，甚至是基础设施漏洞。
 - **过度依赖**：LLMs 容易出错，可能提供不准确或不安全的结果。在多个实例中，人们将结果视为准确无误，导致了意想不到的负面后果。
 
-Microsoft Cloud Advocate Rod Trent 撰写的免费电子书[必须学习的 AI 安全](https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn/Book_Version?WT.mc_id=academic-105485-koreyst)深入探讨了这些和其他新兴 AI 威胁，并提供了广泛的指导，以应对这些挑战。
+Microsoft Cloud Advocate Rod Trent 撰写的免费电子书[必须学习的 AI 安全](https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn/Book_Version?)深入探讨了这些和其他新兴 AI 威胁，并提供了广泛的指导，以应对这些挑战。
 
 ## AI 系统和大型语言模型的安全测试
 
@@ -78,15 +78,15 @@ OpenAI 作为 AI 系统的领先者，建立了一系列*安全评估*作为其�
 
 #### 说服(Persuasion)
 
-- [MakeMeSay](https://github.com/openai/evals/tree/main/evals/elsuite/make_me_say/readme.md?WT.mc_id=academic-105485-koreyst)：一个 AI 系统能多好地欺骗另一个 AI 系统说出一个秘密词？
-- [MakeMePay](https://github.com/openai/evals/tree/main/evals/elsuite/make_me_pay/readme.md?WT.mc_id=academic-105485-koreyst)：一个 AI 系统能多好地说服另一个 AI 系统捐款？
-- [Ballot Proposal](https://github.com/openai/evals/tree/main/evals/elsuite/ballots/readme.md?WT.mc_id=academic-105485-koreyst)：一个 AI 系统能多好地影响另一个 AI 系统对政治提案的支持？
+- [MakeMeSay](https://github.com/openai/evals/tree/main/evals/elsuite/make_me_say/readme.md?)：一个 AI 系统能多好地欺骗另一个 AI 系统说出一个秘密词？
+- [MakeMePay](https://github.com/openai/evals/tree/main/evals/elsuite/make_me_pay/readme.md?)：一个 AI 系统能多好地说服另一个 AI 系统捐款？
+- [Ballot Proposal](https://github.com/openai/evals/tree/main/evals/elsuite/ballots/readme.md?)：一个 AI 系统能多好地影响另一个 AI 系统对政治提案的支持？
 
 #### 隐写术（隐藏信息）
 
-- [Steganography](https://github.com/openai/evals/tree/main/evals/elsuite/steganography/readme.md?WT.mc_id=academic-105485-koreyst)：一个 AI 系统能多好地传递秘密消息而不被另一个 AI 系统发现？
-- [Text Compression](https://github.com/openai/evals/tree/main/evals/elsuite/text_compression/readme.md?WT.mc_id=academic-105485-koreyst)：一个 AI 系统在压缩和解压消息方面的表现如何，以便隐藏秘密消息？
-- [Schelling Point](https://github.com/openai/evals/blob/main/evals/elsuite/schelling_point/README.md?WT.mc_id=academic-105485-koreyst)：一个 AI 系统在没有直接通信的情况下与另一个 AI 系统协调的能力如何？
+- [Steganography](https://github.com/openai/evals/tree/main/evals/elsuite/steganography/readme.md?)：一个 AI 系统能多好地传递秘密消息而不被另一个 AI 系统发现？
+- [Text Compression](https://github.com/openai/evals/tree/main/evals/elsuite/text_compression/readme.md?)：一个 AI 系统在压缩和解压消息方面的表现如何，以便隐藏秘密消息？
+- [Schelling Point](https://github.com/openai/evals/blob/main/evals/elsuite/schelling_point/README.md?)：一个 AI 系统在没有直接通信的情况下与另一个 AI 系统协调的能力如何？
 
 ### AI 安全
 
@@ -121,9 +121,9 @@ LLMs 可能对它们使用的数据的隐私和安全构成风险。例如，LLM
 
 模拟现实世界威胁现在被认为是构建弹性 AI 系统的标准实践，通过采用类似的工具、策略、程序来识别系统的风险并测试防御者的响应。
 
-> AI 红队的实践已经演变为具有更广泛的含义：它不仅涵盖了探测安全漏洞，还包括探测其他系统故障，如生成可能有害的内容。AI 系统带来了新的风险，而红队是理解这些新风险的核心，如提示注入和产生不切实际的内容。- [Microsoft AI 红队构建更安全的 AI 未来](https://www.microsoft.com/security/blog/2023/08/07/microsoft-ai-red-team-building-future-of-safer-ai/?WT.mc_id=academic-105485-koreyst)
+> AI 红队的实践已经演变为具有更广泛的含义：它不仅涵盖了探测安全漏洞，还包括探测其他系统故障，如生成可能有害的内容。AI 系统带来了新的风险，而红队是理解这些新风险的核心，如提示注入和产生不切实际的内容。- [Microsoft AI 红队构建更安全的 AI 未来](https://www.microsoft.com/security/blog/2023/08/07/microsoft-ai-red-team-building-future-of-safer-ai/?)
 
-[![红队指引和资源](../../images/13-AI-red-team.png?WT.mc_id=academic-105485-koreyst)]()
+[![红队指引和资源](../../images/13-AI-red-team.png?)]()
 
 以下是塑造 Microsoft AI 红队计划的关键洞察。
 
@@ -131,14 +131,14 @@ LLMs 可能对它们使用的数据的隐私和安全构成风险。例如，LLM
 2. **恶意和良性失败：**AI 红队考虑了恶意和良性视角的失败。例如，当红队新的 Bing 时，我们探索的不仅仅是恶意对手如何颠覆系统，还有普通用户可能遇到的问题或有害内容。与传统的安全红队不同，主要关注恶意行为者，AI 红队考虑了更广泛的人物和潜在失败。
 3. **AI 系统的动态性：**AI 应用不断进化。在大语言模型应用中，开发者适应不断变化的要求。持续的红队确保持续的警惕和适应不断变化的风险。
 
-AI 红队并非包罗万象，应被视为补充其他控制措施，如[基于角色的访问控制（RBAC）](https://learn.microsoft.com/azure/ai-services/openai/how-to/role-based-access-control?WT.mc_id=academic-105485-koreyst)和全面的数据管理解决方案。它旨在补充一个安全策略，该策略侧重于采用安全和负责任的 AI 解决方案，这些解决方案考虑到隐私和安全，同时努力最小化偏见、有害内容和误导信息，这些都可能侵蚀用户信心。
+AI 红队并非包罗万象，应被视为补充其他控制措施，如[基于角色的访问控制（RBAC）](https://learn.microsoft.com/azure/ai-services/openai/how-to/role-based-access-control?)和全面的数据管理解决方案。它旨在补充一个安全策略，该策略侧重于采用安全和负责任的 AI 解决方案，这些解决方案考虑到隐私和安全，同时努力最小化偏见、有害内容和误导信息，这些都可能侵蚀用户信心。
 
 以下是一些可以帮助您更好地了解红队如何帮助识别和缓解 AI 系统中的风险的额外阅读材料：
 
-- [为大型语言模型（LLMs）及其应用规划红队](https://learn.microsoft.com/azure/ai-services/openai/concepts/red-teaming?WT.mc_id=academic-105485-koreyst)
-- [什么是 OpenAI 红队网络？](https://openai.com/blog/red-teaming-network?WT.mc_id=academic-105485-koreyst)
-- [AI 红队 - 构建更安全、更负责任的 AI 解决方案的关键实践](https://rodtrent.substack.com/p/ai-red-teaming?WT.mc_id=academic-105485-koreyst)
-- MITRE [ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems)](https://atlas.mitre.org/?WT.mc_id=academic-105485-koreyst)，一个知识库，记录了对手在对 AI 系统进行实际攻击中使用的策略和技术。
+- [为大型语言模型（LLMs）及其应用规划红队](https://learn.microsoft.com/azure/ai-services/openai/concepts/red-teaming?)
+- [什么是 OpenAI 红队网络？](https://openai.com/blog/red-teaming-network?)
+- [AI 红队 - 构建更安全、更负责任的 AI 解决方案的关键实践](https://rodtrent.substack.com/p/ai-red-teaming?)
+- MITRE [ATLAS (Adversarial Threat Landscape for Artificial-Intelligence Systems)](https://atlas.mitre.org/?)，一个知识库，记录了对手在对 AI 系统进行实际攻击中使用的策略和技术。
 
 ## 知识检查
 
@@ -152,10 +152,10 @@ AI 红队并非包罗万象，应被视为补充其他控制措施，如[基于�
 
 ## 🚀 挑战
 
-探索更多关于如何在 AI 时代[管理和保护敏感信息](https://learn.microsoft.com/training/paths/purview-protect-govern-ai/?WT.mc_id=academic-105485-koreyst)的方法。
+探索更多关于如何在 AI 时代[管理和保护敏感信息](https://learn.microsoft.com/training/paths/purview-protect-govern-ai/?)的方法。
 
 ## 做得好，继续你的学习之旅
 
-完成本课程后，请继续探索我们的[生成式 AI 学习系列](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)，以进一步提高你的生成式 AI 技能！
+完成本课程后，请继续探索我们的[生成式 AI 学习系列](https://aka.ms/genai-collection?)，以进一步提高你的生成式 AI 技能！
 
-下一站，第 14 课：[生成式 AI 应用生命周期](../../../14-the-generative-ai-application-lifecycle/README.md?WT.mc_id=academic-105485-koreyst)！
+下一站，第 14 课：[生成式 AI 应用生命周期](../../../14-the-generative-ai-application-lifecycle/README.md?)！

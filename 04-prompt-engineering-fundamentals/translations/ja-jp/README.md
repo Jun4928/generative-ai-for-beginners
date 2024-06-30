@@ -1,6 +1,6 @@
 # プロンプト・エンジニアリングの基礎
 
-[![Prompt Engineering Fundamentals](../../images/04-lesson-banner.png?WT.mc_id=academic-105485-yoterada)](https://aka.ms/gen-ai-lesson4-gh?WT.mc_id=academic-105485-koreyst)
+[![Prompt Engineering Fundamentals](../../images/04-lesson-banner.png?WT.mc_id=academic-105485-yoterada)](https://aka.ms/gen-ai-lesson4-gh?)
 
 大規模言語モデル (LLM) では、プロンプトの書き方がとても重要で、慎重に作成したプロンプトは、そうでないものに比べ良い結果をもたらします。しかし、プロンプトやプロンプト・エンジニアリングとは一体どういう物なのでしょうか？また、LLM に送信する内容をどのようにして改善すればいいのでしょうか？この章と次の章では、そうした疑問に答えたいと思います。
 
@@ -412,6 +412,6 @@ A: 2 番が最良のプロンプトです。それは「何を」求めている
 
 ## お疲れ様でした! 次のレッスンを続ける
 
-プロンプト・エンジニアリングに関して、さらに概念をもっと深く学びたい方は、この話題に関する他の素晴らしい情報を見つけるために[継続的学習のページ](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)をご参照ください。
+プロンプト・エンジニアリングに関して、さらに概念をもっと深く学びたい方は、この話題に関する他の素晴らしい情報を見つけるために[継続的学習のページ](https://aka.ms/genai-collection?)をご参照ください。
 
 それでは、レッスン 5 に移り、[高度なプロンプト技術](../../../05-advanced-prompts/translations/ja-jp/README.md?WT.mc_id=academic-105485-yoterada)を見ていきましょう！

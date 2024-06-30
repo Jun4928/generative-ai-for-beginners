@@ -1,6 +1,6 @@
 # 第十一章：为生成式 AI 添加 function calling
 
-[![Integrating with function calling](../../images/11-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson11-gh?WT.mc_id=academic-105485-koreyst)
+[![Integrating with function calling](../../images/11-lesson-banner.png?)](https://aka.ms/gen-ai-lesson11-gh?)
 
 到目前为止，您在之前的章节中已经学到了相当多的知识。 然而，我们可以进一步改进。 可以解决的一些问题是如何获得更一致的响应格式，以便更轻松地处理下游响应。 此外，我们可能希望添加来自其他来源的数据以进一步丰富我们的应用程序。
 
@@ -166,7 +166,7 @@ Function Calling 是 Azure Open AI Service 的一项功能，旨在克服以下�
 
 那么我们该如何解决格式化问题呢？ 通过使用 function calling，我们可以确保收到返回的结构化数据。 当使用 function calling 时，LLM 实际上并不调用或运行任何函数。 相反，我们为 LLMs 创建了一个响应结构。 然后，我们使用这些结构化响应来了解要在应用程序中运行哪些功能。.
 
-![function flow](../../images/Function-Flow.png?WT.mc_id=academic-105485-koreyst)
+![function flow](../../images/Function-Flow.png?)
 
 然后我们可以获取函数返回的内容并将其发送回 LLM。 然后， LLM 将使用自然语言来回答用户的查询。
 
@@ -188,7 +188,7 @@ Function Calling 是 Azure Open AI Service 的一项功能，旨在克服以下�
 2. **读取**模型的响应以执行操作，即执行函数或 API 调用。
 3. **使用**函数的响应再次调用 Chat Completions API，以使用该信息创建对用户的响应。
 
-![LLM Flow](../../images/LLM-Flow.png?WT.mc_id=academic-105485-koreyst)
+![LLM Flow](../../images/LLM-Flow.png?)
 
 ### Step 1 - 创建消息
 
@@ -445,12 +445,12 @@ messages= [ {"role": "user", "content": "Find me a good course for a beginner st
 - 创建另一个函数调用，从学习者那里获取更多信息，例如他们的母语
 - 当函数调用和/或 API 调用未返回任何合适的课程时创建错误处理
 
-  提示：按照 [Learn API 参考文档](https://learn.microsoft.com/training/support/catalog-api-developer-reference?WT.mc_id=academic-105485-koreyst) 页面了解此操作的方式和和哪些数据是可用的
+  提示：按照 [Learn API 参考文档](https://learn.microsoft.com/training/support/catalog-api-developer-reference?) 页面了解此操作的方式和和哪些数据是可用的
 
 ## Great Work! Continue the Journey
 
 ## 继续学习
 
-想要了解有关 Function Calling 的更多信息？ 转至[进阶学习的页面](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) 查找有关此主章节的其他学习资源。
+想要了解有关 Function Calling 的更多信息？ 转至[进阶学习的页面](https://aka.ms/genai-collection?) 查找有关此主章节的其他学习资源。
 
-前往第十二章，我们将学习 [为人工智能应用程序添加用户体验](../../../12-designing-ux-for-ai-applications/translations/cn/README.md?WT.mc_id=academic-105485-koreyst)!
+前往第十二章，我们将学习 [为人工智能应用程序添加用户体验](../../../12-designing-ux-for-ai-applications/translations/cn/README.md?)!

@@ -1,6 +1,6 @@
 # 생성형 AI와 대형 언어 모델 (LLM) 소개
 
-[![Introduction to Generative AI and Large Language Models](../../images/01-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson-1-gh?WT.mc_id=academic-105485-koreyst)
+[![Introduction to Generative AI and Large Language Models](../../images/01-lesson-banner.png?)](https://aka.ms/gen-ai-lesson-1-gh?)
 
 _(이미지를 클릭하면 이 수업의 비디오를 볼 수 있습니다)_
 
@@ -34,13 +34,13 @@ _(이미지를 클릭하면 이 수업의 비디오를 볼 수 있습니다)_
 
 생성형 AI는 우리가 오늘날 배우고 가르치는 방식을 혁신할 것으로 예상되며, 학생들은 하루 24시간 가상의 선생님을 이용할 수 있게 되어 방대한 양의 정보와 예제를 제공하고, 선생님들은 학생들을 평가하고 피드백을 주는 데 혁신적인 도구를 활용할 수 있게 될 것입니다.
 
-![Five young students looking at a monitor - image by DALLE2](../../images/students-by-DALLE2.png?WT.mc_id=academic-105485-koreyst)
+![Five young students looking at a monitor - image by DALLE2](../../images/students-by-DALLE2.png?)
 
 시작하기 위해, 이 커리큘럼에서 사용할 기본 개념과 용어를 정의하겠습니다.
 
 ## 우리는 어떻게 생성형 AI를 얻게 되었나요?
 
-최근 생성형 AI 모델의 발표로 인해 발생한 놀라운 *확장*에도 불구하고, 이 기술은 수십 년 동안 만들어져 왔으며, 최초의 연구 노력은 60년대에 거슬러 올라갑니다. 우리는 이제 인간의 인지 능력을 가진 AI에 도달했습니다. 예를 들어 [OpenAI ChatGPT](https://openai.com/chatgpt)나 [Bing Chat](https://www.microsoft.com/edge/features/bing-chat?WT.mc_id=academic-105485-koreyst)과 같은 대화가 가능한 AI입니다. Bing Chat은 웹 검색 Bing 대화를 위해 GPT 모델을 사용합니다.
+최근 생성형 AI 모델의 발표로 인해 발생한 놀라운 *확장*에도 불구하고, 이 기술은 수십 년 동안 만들어져 왔으며, 최초의 연구 노력은 60년대에 거슬러 올라갑니다. 우리는 이제 인간의 인지 능력을 가진 AI에 도달했습니다. 예를 들어 [OpenAI ChatGPT](https://openai.com/chatgpt)나 [Bing Chat](https://www.microsoft.com/edge/features/bing-chat?)과 같은 대화가 가능한 AI입니다. Bing Chat은 웹 검색 Bing 대화를 위해 GPT 모델을 사용합니다.
 
 조금 뒤로 돌아가 보면, 최초의 AI 프로토타입은 전문가 그룹에서 추출한 지식 베이스를 컴퓨터에 표현하고, 입력 텍스트에 나타나는 키워드에 의해 지식 베이스의 답변이 트리거되는 typewritten 챗봇으로 구성되었습니다. 그러나 typewritten 챗봇을 사용하는 이러한 접근 방식은 잘 확장되지 않는다는 것이 곧 분명해졌습니다.
 
@@ -60,7 +60,7 @@ _(이미지를 클릭하면 이 수업의 비디오를 볼 수 있습니다)_
 
 이것이 현재의 생성형 AI에 이르게 된 과정입니다. 생성형 AI는 딥러닝의 하위 분야로 볼 수 있습니다.
 
-![AI, ML, DL and Generative AI](../../images/AI-diagram.png?WT.mc_id=academic-105485-koreyst)
+![AI, ML, DL and Generative AI](../../images/AI-diagram.png?)
 
 AI 분야에서 수십 년간의 연구 끝에 새로운 모델 구조인 *Transformer*가 RNN의 한계를 극복했습니다. Transformer는 입력받은 텍스트의 순서에 관계없이 가장 중요한 정보가 집중된 곳에 ’더 많은 주의’를 기울일 수 있도록 모델에 다른 가중치를 부여하는 attention 메커니즘에 기반합니다.
 
@@ -72,7 +72,7 @@ AI 분야에서 수십 년간의 연구 끝에 새로운 모델 구조인 *Trans
 
 - **토크나이저, 텍스트를 숫자로 변환**: 대형 언어 모델은 텍스트를 입력으로 받아 텍스트를 출력합니다. 하지만 통계적 모델이기 때문에 텍스트 시퀀스보다는 숫자로 작업하는 것이 훨씬 더 잘 됩니다. 그래서 모델의 핵심 부분이 사용하기 전에 모든 입력은 토크나이저에 의해 처리됩니다. 토큰은 텍스트의 조각으로, 일정한 수의 문자로 구성됩니다. 그래서 토크나이저의 주요 작업은 입력을 토큰 배열로 분할하는 것입니다. 그런 다음 각 토큰은 토큰 인덱스와 매핑됩니다. 토큰 인덱스는 원래 텍스트 조각의 정수 인코딩입니다.
 
-![Example of tokenization](../../images/tokenizer-example.png?WT.mc_id=academic-105485-koreyst)
+![Example of tokenization](../../images/tokenizer-example.png?)
 
 - **출력 토큰 예측하기**: n개의 토큰을 입력으로 받으면(최대 n은 모델마다 다름) 모델은 하나의 토큰을 출력으로 예측할 수 있습니다. 이 토큰은 다음 반복의 입력에 확장 윈도우 패턴을 통해 더 나은 사용자 경험을 제공하여 하나(또는 여러) 문장을 답변으로 얻을 수 있습니다. 이를 통해 ChatGPT을 사용한 적이 있다면 때때로 문장 중간에 멈춰 있는 것처럼 보이는 이유를 설명할 수 있습니다.
 
@@ -88,31 +88,31 @@ AI 분야에서 수십 년간의 연구 끝에 새로운 모델 구조인 *Trans
 
   1. 기사, 책, 제품 리뷰 등의 요약, 더불어 비구조화된 데이터로부터 인사이트를 추출합니다.
 
-  ![Example of summarization](../../images/summarization-example.png?WT.mc_id=academic-105485-koreyst)
+  ![Example of summarization](../../images/summarization-example.png?)
 
     <br>
     
     2. 기사, 에세이, 과제 등의 창의적인 아이디어 제안과 디자인.
     
-    ![Example of creative writing](../../images/creative-writing-example.png?WT.mc_id=academic-105485-koreyst)
+    ![Example of creative writing](../../images/creative-writing-example.png?)
 
     <br>
 
 - **질문 (question)** 을 통해 대화 형식으로 에이전트에게 질문을 물어볼 수 있습니다.
 
-![Example of conversation](../../images/conversation-example.png?WT.mc_id=academic-105485-koreyst)
+![Example of conversation](../../images/conversation-example.png?)
 
 <br>
 
 - **완성해야 할 텍스트**를 제공함으로써 암시적으로 글쓰기 도움을 요청할 수 있습니다.
 
-![Example of text completion](../../images/text-completion-example.png?WT.mc_id=academic-105485-koreyst)
+![Example of text completion](../../images/text-completion-example.png?)
 
 <br>
 
 - **코드**에서 그것을 설명하고 문서화하라는 요청을 하거나 특정 작업을 수행하는 코드 조각을 생성할 수 있습니다.
 
-![Coding example](../../images/coding-example.png?WT.mc_id=academic-105485-koreyst)
+![Coding example](../../images/coding-example.png?)
 
 <br>
 
@@ -122,9 +122,9 @@ AI 분야에서 수십 년간의 연구 끝에 새로운 모델 구조인 *Trans
 
 ## 과제
 
-당신의 과제는 [생성형 AI](<(https://en.wikipedia.org/wiki/Generative_artificial_intelligence?WT.mc_id=academic-105485-koreyst)>)에 대해 더 많이 읽어보고, 현재 생성형 AI가 없는 영역에서 어디에 생성형 AI를 활용할 것인지를 파악하는 것입니다. "옛날 방식"과 비교했을 때 영향력은 어떻게 달라질까요, 이전에 할 수 없었던 것을 할 수 있게 되었나요, 아니면 더 빨라졌나요? “문제”, “AI를 어떻게 사용할 것인가”, “영향력” 그리고 선택적으로 비즈니스 계획을 포함한 헤더를 사용하여 꿈의 AI 스타트업이 어떤 모습일지에 대한 300단어 요약을 작성해보세요.
+당신의 과제는 [생성형 AI](<(https://en.wikipedia.org/wiki/Generative_artificial_intelligence?)>)에 대해 더 많이 읽어보고, 현재 생성형 AI가 없는 영역에서 어디에 생성형 AI를 활용할 것인지를 파악하는 것입니다. "옛날 방식"과 비교했을 때 영향력은 어떻게 달라질까요, 이전에 할 수 없었던 것을 할 수 있게 되었나요, 아니면 더 빨라졌나요? “문제”, “AI를 어떻게 사용할 것인가”, “영향력” 그리고 선택적으로 비즈니스 계획을 포함한 헤더를 사용하여 꿈의 AI 스타트업이 어떤 모습일지에 대한 300단어 요약을 작성해보세요.
 
-이 과제를 수행하면, 여러분은 Microsoft의 인큐베이터인 [Microsoft for Startups Founders Hub](https://www.microsoft.com/startups?WT.mc_id=academic-105485-koreyst)에 지원할 준비가 되어있을지도 모릅니다. 우리는 Azure, OpenAI, 멘토링 등에 대한 크레딧을 제공하며, 더 많은 것들을 확인해보세요!
+이 과제를 수행하면, 여러분은 Microsoft의 인큐베이터인 [Microsoft for Startups Founders Hub](https://www.microsoft.com/startups?)에 지원할 준비가 되어있을지도 모릅니다. 우리는 Azure, OpenAI, 멘토링 등에 대한 크레딧을 제공하며, 더 많은 것들을 확인해보세요!
 
 ## 지식 확인
 
@@ -138,6 +138,6 @@ AI 분야에서 수십 년간의 연구 끝에 새로운 모델 구조인 *Trans
 
 ## 잘하셨습니다! 여정을 계속하세요
 
-이 강의를 완료한 후에는 [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)을 확인하여 Generative AI 지식을 계속 향상시켜 보세요!
+이 강의를 완료한 후에는 [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?)을 확인하여 Generative AI 지식을 계속 향상시켜 보세요!
 
-Lesson 2로 이동하여 [다양한 LLM 유형 탐색 및 비교](../../../02-exploring-and-comparing-different-llms/translations/ko/README.md?WT.mc_id=academic-105485-koreyst)하는 방법을 살펴보겠습니다!
+Lesson 2로 이동하여 [다양한 LLM 유형 탐색 및 비교](../../../02-exploring-and-comparing-different-llms/translations/ko/README.md?)하는 방법을 살펴보겠습니다!

@@ -1,6 +1,6 @@
 # 第七章：创建聊天应用
 
-[![Building Generative AI-Powered Chat Applications](../../images/07-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lessons7-gh?WT.mc_id=academic-105485-koreyst)
+[![Building Generative AI-Powered Chat Applications](../../images/07-lesson-banner.png?)](https://aka.ms/gen-ai-lessons7-gh?)
 
 > _(点击该图片看本章导学视频)_
 
@@ -11,7 +11,7 @@
 我们需要回答的一些问题是：
 
 - **构建应用程序** 我们如何针对特定场景高效构建并无缝集成这些人工智能驱动的应用程序？
-- **有效监控** 部署后，我们如何监控并确保应用程序在功能方面遵守[负责任的人工智能六项原则](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-105485-koreyst)?
+- **有效监控** 部署后，我们如何监控并确保应用程序在功能方面遵守[负责任的人工智能六项原则](https://www.microsoft.com/ai/responsible-ai?)?
 
 随着我们进一步进入自动化和无缝人机交互的时代，了解生成式人工智能如何改变聊天应用程序的范围、深度和适应性变得至关重要。 本课程将研究支持这些复杂系统的架构的各个方面，深入研究针对特定场景进行微调的方法，并评估和确保负责任的人工智能部署相关的指标和注意事项。
 
@@ -60,7 +60,7 @@
 - **更容易维护**：更新和改进更易于管理，因为大多数 API 和 SDK 在发布新版本时只需要更新库。
 - **获得尖端技术**：利用经过微调和在广泛数据集上训练的模型为您的应用程序提供自然语言功能。
 
-访问 SDK 或 API 的功能通常涉及获取使用所提供服务的许可，这通常是通过使用唯一 kwy 或身份验证 token 来实现的。 我们将使用 OpenAI Python library 来探索它是什么样子。 您也可以在本章的[notebook](../../python/oai-assignment.ipynb?WT.mc_id=academic-105485-koreyst) 中自行尝试。
+访问 SDK 或 API 的功能通常涉及获取使用所提供服务的许可，这通常是通过使用唯一 kwy 或身份验证 token 来实现的。 我们将使用 OpenAI Python library 来探索它是什么样子。 您也可以在本章的[notebook](../../python/oai-assignment.ipynb?) 中自行尝试。
 
 ```python
 import os
@@ -91,15 +91,15 @@ AuthenticationError: No API key provided. You can set your API key in code using
 
 个性化的一个例子是 OpenAI 的 ChatGPT 中的“自定义指令”设置。 它允许您提供有关您自己的信息，这些信息可能是您的提示的重要背景。 以下是自定义指令的示例。
 
-![Custom Instructions Settings in ChatGPT](../../images/custom-instructions.png?WT.mc_id=academic-105485-koreyst)
+![Custom Instructions Settings in ChatGPT](../../images/custom-instructions.png?)
 
 “配置文件”提示 ChatGPT 在链接列表上创建课程计划。 请注意，ChatGPT 可以按照用户的特点获得更深入的课程计划。
 
-![A prompt in ChatGPT for a lesson plan about linked lists](../../images/lesson-plan-prompt.png?WT.mc_id=academic-105485-koreyst)
+![A prompt in ChatGPT for a lesson plan about linked lists](../../images/lesson-plan-prompt.png?)
 
 ### 微软的 LLMs 系统消息框架
 
-[微软指引](https://learn.microsoft.com/azure/ai-services/openai/concepts/system-message#define-the-models-output-format?WT.mc_id=academic-105485-koreyst) 用于在 LLM 生成响应时编写有效的系统消息，分为 4 个区域：
+[微软指引](https://learn.microsoft.com/azure/ai-services/openai/concepts/system-message#define-the-models-output-format?) 用于在 LLM 生成响应时编写有效的系统消息，分为 4 个区域：
 
 1. 定义模型的适用对象及其功能和限制。
 2. 定义模型的输出格式。
@@ -179,16 +179,16 @@ Microsoft 的 Responsible AI 方法确定了指导 AI 开发和使用的六项�
 
 ## 作业
 
-请查看[作业](../../python?WT.mc_id=academic-105485-koreyst)，它将引导您完成一系列练习，从运行第一个聊天提示到对文本进行分类和总结等等。
+请查看[作业](../../python?)，它将引导您完成一系列练习，从运行第一个聊天提示到对文本进行分类和总结等等。
 
 ## Great Work! Continue the Journey
 
-Want to learn more about creating chat applications with Generative AI? Go to the [continued learning page](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) to find other great resources on this topic.
+Want to learn more about creating chat applications with Generative AI? Go to the [continued learning page](https://aka.ms/genai-collection?) to find other great resources on this topic.
 
-Head over to Lesson 8 to see how you can start [building search applications](/08-building-search-applications/README.md?WT.mc_id=academic-105485-koreyst)!
+Head over to Lesson 8 to see how you can start [building search applications](/08-building-search-applications/README.md?)!
 
 ## 继续学习
 
-想要了解有关创建聊天应用的更多信息？ 转至[进阶学习的页面](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) 查找有关此主章节的其他学习资源。
+想要了解有关创建聊天应用的更多信息？ 转至[进阶学习的页面](https://aka.ms/genai-collection?) 查找有关此主章节的其他学习资源。
 
-前往第八章，我们将学习[构建搜索应用程序](../../../08-building-search-applications/translations/cn/README.md?WT.mc_id=academic-105485-koreyst)
+前往第八章，我们将学习[构建搜索应用程序](../../../08-building-search-applications/translations/cn/README.md?)

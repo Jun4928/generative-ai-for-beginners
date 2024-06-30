@@ -1,6 +1,6 @@
 # 고급 프롬프트 생성
 
-[![Creating Advanced Prompts](../../images/05-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson5-gh?WT.mc_id=academic-105485-koreyst)
+[![Creating Advanced Prompts](../../images/05-lesson-banner.png?)](https://aka.ms/gen-ai-lesson5-gh?)
 
 이전 장에서 배운 내용을 간단히 되짚어보겠습니다:
 
@@ -599,7 +599,7 @@ GitHub Copilot이나 ChatGPT와 같은 AI 어시스턴트를 사용하여 "자�
 > [!TIP]  
 > 개선 사항을 요청하는 프롬프트를 작성하는 것이 좋습니다. 개선 사항의 수를 제한하는 것도 좋은 아이디어입니다. 또한 아키텍처, 성능, 보안 등 특정한 방식으로 개선을 요청할 수도 있습니다.
 
-[해답](../../python/aoai-solution.py?WT.mc_id=academic-105485-koreyst)
+[해답](../../python/aoai-solution.py?)
 
 ## 지식 확인
 
@@ -617,6 +617,6 @@ A: 1, 생각의 사슬 (chain-of-thought) 는 LLM에게 문제를 해결하는 �
 
 ## 잘 하셨습니다! 계속해서 학습하세요
 
-이 레슨을 완료한 후 [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)을 확인하여 Generative AI 지식을 계속 향상시킬 수 있습니다!
+이 레슨을 완료한 후 [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?)을 확인하여 Generative AI 지식을 계속 향상시킬 수 있습니다!
 
-[6번 레슨](../../../06-text-generation-apps/translations/ko/README.md?WT.mc_id=academic-105485-koreyst)으로 이동하여 Prompt Engineering 지식을 적용하여 텍스트 생성 앱을 구축해보세요.
+[6번 레슨](../../../06-text-generation-apps/translations/ko/README.md?)으로 이동하여 Prompt Engineering 지식을 적용하여 텍스트 생성 앱을 구축해보세요.

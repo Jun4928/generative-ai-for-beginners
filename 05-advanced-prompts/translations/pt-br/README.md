@@ -1,6 +1,6 @@
 # Criando prompts avançados
 
-[![Creating Advanced Prompts](../../images/05-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson5-gh?WT.mc_id=academic-105485-koreyst)
+[![Creating Advanced Prompts](../../images/05-lesson-banner.png?)](https://aka.ms/gen-ai-lesson5-gh?)
 
 Vamos recapitular algumas aprendizagens do capítulo anterior:
 
@@ -641,7 +641,7 @@ Por favor, tente resolver a tarefa adicionando prompts adequados ao código.
 > [!DICA]
 > Formule um prompt para pedir que ele melhor. É uma boa ideia limitar quantas melhorias devem ter. Você também pode pedir para melhorar de uma certa maneira, por exemplo, arquitetura, desempenho, segurança, etc.
 
-[Solution](../../python/aoai-solution.py?WT.mc_id=academic-105485-koreyst)
+[Solution](../../python/aoai-solution.py?)
 
 ## Verificação de conhecimento
 
@@ -659,6 +659,6 @@ Você acabou de usar a técnica de auto-aperfeiçoamento na atribuição. Pegue 
 
 ## Ótimo trabalho! Continue seu aprendizado
 
-Após concluir esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para continuar a aprimorar seus conhecimentos sobre IA generativa!
+Após concluir esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?) para continuar a aprimorar seus conhecimentos sobre IA generativa!
 
-Agora, vamos para a Lição 6, onde aplicaremos nosso conhecimento de Engenharia de Prompt, [construindo aplicativos de geração de texto](../../../06-text-generation-apps/translations/pt-br/README.md?WT.mc_id=academic-105485-koreyst)
+Agora, vamos para a Lição 6, onde aplicaremos nosso conhecimento de Engenharia de Prompt, [construindo aplicativos de geração de texto](../../../06-text-generation-apps/translations/pt-br/README.md?)

@@ -1,6 +1,6 @@
 # Fundamentos de Engenharia de Prompt
 
-[![Prompt Engineering Fundamentals](../../images/04-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson4-gh?WT.mc_id=academic-105485-koreyst)
+[![Prompt Engineering Fundamentals](../../images/04-lesson-banner.png?)](https://aka.ms/gen-ai-lesson4-gh?)
 
 A forma como você escreve seu prompt para o LLM importa. Um prompt cuidadosamente elaborado pode alcançar um resultado melhor do que um que não é. Mas o que são esses conceitos, prompt, Engenharia de Prompt e como posso melhorar o que envio para o LLM? Perguntas como essas são o que este capítulo e o próximo estão procurando responder.
 
@@ -39,13 +39,13 @@ O notebook vem com exercícios _iniciais_, mas você é incentivado a adicionar 
 
 ## Nossa Startup
 
-Agora, vamos falar sobre como _esse tópico_ se relaciona com a missão de nossa startup de [trazer inovação de IA para a educação](https://educationblog.microsoft.com/2023/06/collaborating-to-bring-ai-innovation-to-education?WT.mc_id=academic-105485-koreyst). Queremos criar aplicações de aprendizado personalizado impulsionados por IA. Então, vamos pensar em como diferentes usuários da nossa aplicação podem "projetar" prompts:
+Agora, vamos falar sobre como _esse tópico_ se relaciona com a missão de nossa startup de [trazer inovação de IA para a educação](https://educationblog.microsoft.com/2023/06/collaborating-to-bring-ai-innovation-to-education?). Queremos criar aplicações de aprendizado personalizado impulsionados por IA. Então, vamos pensar em como diferentes usuários da nossa aplicação podem "projetar" prompts:
 
 - **Administradores** podem pedir à IA para _analisar dados do currículo para identificar lacunas na cobertura_. A IA pode resumir os resultados ou visualizá-los com código.
 - **Educadores** podem pedir à IA para _gerar um plano de aula para um público-alvo e tópico_. A IA pode criar o plano personalizado em um formato especificado.
 - **Alunos** podem pedir à IA para _ajudá-los em uma disciplina difícil_. A IA pode orientar os alunos com lições, dicas e exemplos adaptados ao seu nível.
 
-Isso é apenas a ponta do iceberg. Confira [Prompts For Education](https://github.com/microsoft/prompts-for-edu/tree/main?WT.mc_id=academic-105485-koreyst) - uma biblioteca de prompts de código aberto curada por especialistas em educação - para ter uma visão mais ampla das possibilidades! _Experimente executar alguns desses prompts na sandbox ou usando o OpenAI Playground para ver o que acontece!_
+Isso é apenas a ponta do iceberg. Confira [Prompts For Education](https://github.com/microsoft/prompts-for-edu/tree/main?) - uma biblioteca de prompts de código aberto curada por especialistas em educação - para ter uma visão mais ampla das possibilidades! _Experimente executar alguns desses prompts na sandbox ou usando o OpenAI Playground para ver o que acontece!_
 
 <!--
 MODELO DE LIÇÃO:
@@ -74,25 +74,25 @@ Isso é necessariamente um processo de tentativa e erro que requer intuição do
 
 Um LLM vê prompts como uma _sequência de tokens_ onde diferentes modelos (ou versões de um modelo) podem tokenizar o mesmo prompt de maneiras diferentes. Como os LLMs são treinados em tokens (não em texto bruto), a forma como os prompts são tokenizados tem um impacto direto na qualidade da resposta gerada.
 
-Para ter uma intuição de como a tokenização funciona, experimente ferramentas como o [OpenAI Tokenizer](https://platform.openai.com/tokenizer?WT.mc_id=academic-105485-koreyst) mostrado abaixo. Copie seu prompt e veja como ele é convertido em tokens, prestando atenção em como caracteres de espaço em branco e pontuações são tratados. Note que este exemplo mostra um LLM mais antigo (GPT-3) - então, tentar isso com um modelo mais recente pode produzir um resultado diferente.
+Para ter uma intuição de como a tokenização funciona, experimente ferramentas como o [OpenAI Tokenizer](https://platform.openai.com/tokenizer?) mostrado abaixo. Copie seu prompt e veja como ele é convertido em tokens, prestando atenção em como caracteres de espaço em branco e pontuações são tratados. Note que este exemplo mostra um LLM mais antigo (GPT-3) - então, tentar isso com um modelo mais recente pode produzir um resultado diferente.
 
-![Tokenization](../../images/04-tokenizer-example.png?WT.mc_id=academic-105485-koreyst)
+![Tokenization](../../images/04-tokenizer-example.png?)
 
 ### Conceito: Modelos Fundamentais
 
-Uma vez que um prompt é tokenizado, a função principal do ["Base LLM"](https://blog.gopenai.com/an-introduction-to-base-and-instruction-tuned-large-language-models-8de102c785a6?WT.mc_id=academic-105485-koreyst) (ou modelo fundamental) é prever o token nessa sequência. Como os LLMs são treinados em conjuntos massivos de dados de texto, eles têm uma boa compreensão das relações estatísticas entre tokens e podem fazer essa previsão com alguma confiança.
+Uma vez que um prompt é tokenizado, a função principal do ["Base LLM"](https://blog.gopenai.com/an-introduction-to-base-and-instruction-tuned-large-language-models-8de102c785a6?) (ou modelo fundamental) é prever o token nessa sequência. Como os LLMs são treinados em conjuntos massivos de dados de texto, eles têm uma boa compreensão das relações estatísticas entre tokens e podem fazer essa previsão com alguma confiança.
 
 > Observação: eles não compreendem o _significado_ das palavras no prompt ou token; eles apenas veem um padrão que podem "completar" com sua próxima previsão. Eles podem continuar prevendo a sequência até serem interrompidos pela intervenção do usuário ou alguma condição preestabelecida.
 
-Desejam ver como a conclusão baseada em prompts funciona? Insira o prompt acima no [_Chat Playground_](https://oai.azure.com/playground?WT.mc_id=academic-105485-koreyst) do Azure OpenAI Studio com as configurações padrão. O sistema está configurado para tratar prompts como solicitações de informação - então, você deve ver uma conclusão que atende a esse contexto.
+Desejam ver como a conclusão baseada em prompts funciona? Insira o prompt acima no [_Chat Playground_](https://oai.azure.com/playground?) do Azure OpenAI Studio com as configurações padrão. O sistema está configurado para tratar prompts como solicitações de informação - então, você deve ver uma conclusão que atende a esse contexto.
 
 Mas e se o usuário quiser ver algo específico que atenda a alguns critérios ou objetivos de tarefa? É aqui que os LLMs _instruídos_ entram em cena.
 
-![Base LLM Chat Completion](../../images/04-playground-chat-base.png?WT.mc_id=academic-105485-koreyst)
+![Base LLM Chat Completion](../../images/04-playground-chat-base.png?)
 
 ### Conceito: LLMs Instruídos
 
-Um [LLM Instruído](https://blog.gopenai.com/an-introduction-to-base-and-instruction-tuned-large-language-models-8de102c785a6?WT.mc_id=academic-105485-koreyst) começa com o modelo fundamental e o ajusta com exemplos ou pares de entrada/saída (por exemplo, "mensagens" de várias rodadas) que podem conter instruções claras - e a resposta da IA tenta seguir essa instrução.
+Um [LLM Instruído](https://blog.gopenai.com/an-introduction-to-base-and-instruction-tuned-large-language-models-8de102c785a6?) começa com o modelo fundamental e o ajusta com exemplos ou pares de entrada/saída (por exemplo, "mensagens" de várias rodadas) que podem conter instruções claras - e a resposta da IA tenta seguir essa instrução.
 
 Isso usa técnicas como Aprendizado por Reforço com Feedback Humano (ARFH) que podem treinar o modelo a _seguir instruções_ e _aprender com feedback_ para que produza respostas mais adequadas a aplicações práticas e mais relevantes para objetivos do usuário.
 
@@ -102,7 +102,7 @@ Vamos experimentar - revisite o prompt acima, mas agora altere a _mensagem do si
 
 Veja como o resultado agora está ajustado para refletir o objetivo desejado e o formato? Um educador pode agora usar diretamente essa resposta em seus slides para aquela aula.
 
-![Instruction Tuned LLM Chat Completion](../../images/04-playground-chat-instructions.png?WT.mc_id=academic-105485-koreyst)
+![Instruction Tuned LLM Chat Completion](../../images/04-playground-chat-instructions.png?)
 
 ## Por que precisamos de Engenharia de Prompt?
 
@@ -131,15 +131,15 @@ Então, o que acontece quando executamos este prompt com diferentes provedores d
 
 > **Resposta 1**: OpenAI Playground (GPT-35)
 
-![Resposta 1](../../images/04-fabrication-aoai.png?WT.mc_id=academic-105485-koreyst)
+![Resposta 1](../../images/04-fabrication-aoai.png?)
 
 > **Resposta 2**: Azure OpenAI Playground (GPT-35)
 
-![Response 2](../../images/04-fabrication-aoai.png?WT.mc_id=academic-105485-koreyst)
+![Response 2](../../images/04-fabrication-aoai.png?)
 
 > **Resposta 3**: : Hugging Face Chat Playground (LLama-2)
 
-![Response 3](../../images/04-fabrication-huggingchat.png?WT.mc_id=academic-105485-koreyst)
+![Response 3](../../images/04-fabrication-huggingchat.png?)
 
 Como esperado, cada modelo (ou versão do modelo) produz respostas ligeiramente diferentes devido ao comportamento estocástico e variações nas capacidades do modelo. Por exemplo, um modelo tem como alvo uma audiência do 8º ano, enquanto o outro assume um estudante do ensino médio. Mas os três modelos geraram respostas que poderiam convencer um usuário desinformado de que o evento era real.
 
@@ -147,20 +147,20 @@ Técnicas de engenharia de prompt como _metaprompting_ e _configuração de temp
 
 ## Estudo de Caso: GitHub Copilot
 
-Vamos concluir esta seção entendendo como a engenharia de prompt é utilizada em soluções do mundo real ao analisar um Estudo de Caso: [GitHub Copilot](https://github.com/features/copilot?WT.mc_id=academic-105485-koreyst).
+Vamos concluir esta seção entendendo como a engenharia de prompt é utilizada em soluções do mundo real ao analisar um Estudo de Caso: [GitHub Copilot](https://github.com/features/copilot?).
 
-O GitHub Copilot é seu "Programador de Par IA" - ele converte prompts de texto em conclusões de código e está integrado ao seu ambiente de desenvolvimento (por exemplo, Visual Studio Code) para uma experiência do usuário sem interrupções. Como documentado na série de blogs abaixo, a versão mais antiga era baseada no modelo OpenAI Codex - com os engenheiros percebendo rapidamente a necessidade de ajustar o modelo e desenvolver técnicas melhores de engenharia de prompt para melhorar a qualidade do código. Em julho, eles [apresentaram um modelo de IA aprimorado que vai além do Codex](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?WT.mc_id=academic-105485-koreyst) para sugestões ainda mais rápidas.
+O GitHub Copilot é seu "Programador de Par IA" - ele converte prompts de texto em conclusões de código e está integrado ao seu ambiente de desenvolvimento (por exemplo, Visual Studio Code) para uma experiência do usuário sem interrupções. Como documentado na série de blogs abaixo, a versão mais antiga era baseada no modelo OpenAI Codex - com os engenheiros percebendo rapidamente a necessidade de ajustar o modelo e desenvolver técnicas melhores de engenharia de prompt para melhorar a qualidade do código. Em julho, eles [apresentaram um modelo de IA aprimorado que vai além do Codex](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?) para sugestões ainda mais rápidas.
 
 Leia as postagens na ordem para seguir a jornada de aprendizado deles.
 
-- **Maio de 2023** | [GitHub Copilot está Melhorando na Compreensão do Seu Código](https://github.blog/2023-05-17-how-github-copilot-is-getting-better-at-understanding-your-code/?WT.mc_id=academic-105485-koreyst)
-- **Maio de 2023** | [Dentro do GitHub: Trabalhando com os LLMs por trás do GitHub Copilot](https://github.blog/2023-05-17-inside-github-working-with-the-llms-behind-github-copilot/?WT.mc_id=academic-105485-koreyst).
-- **Junho de 2023** | [Como Escrever Melhores Prompts para o GitHub Copilot](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/?WT.mc_id=academic-105485-koreyst).
-- **Julho de 2023** | [.. GitHub Copilot vai além do Codex com modelo de IA aprimorado](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?WT.mc_id=academic-105485-koreyst)
-- **Julho de 2023** | [Guia do Desenvolvedor para Engenharia de Prompt e LLMs](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/?WT.mc_id=academic-105485-koreyst)
-- **Setembro de 2023** | [Como construir um aplicativo empresarial LLM: Lições do GitHub Copilot](https://github.blog/2023-09-06-how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/?WT.mc_id=academic-105485-koreyst)
+- **Maio de 2023** | [GitHub Copilot está Melhorando na Compreensão do Seu Código](https://github.blog/2023-05-17-how-github-copilot-is-getting-better-at-understanding-your-code/?)
+- **Maio de 2023** | [Dentro do GitHub: Trabalhando com os LLMs por trás do GitHub Copilot](https://github.blog/2023-05-17-inside-github-working-with-the-llms-behind-github-copilot/?).
+- **Junho de 2023** | [Como Escrever Melhores Prompts para o GitHub Copilot](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/?).
+- **Julho de 2023** | [.. GitHub Copilot vai além do Codex com modelo de IA aprimorado](https://github.blog/2023-07-28-smarter-more-efficient-coding-github-copilot-goes-beyond-codex-with-improved-ai-model/?)
+- **Julho de 2023** | [Guia do Desenvolvedor para Engenharia de Prompt e LLMs](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/?)
+- **Setembro de 2023** | [Como construir um aplicativo empresarial LLM: Lições do GitHub Copilot](https://github.blog/2023-09-06-how-to-build-an-enterprise-llm-application-lessons-from-github-copilot/?)
 
-Você também pode navegar pelo [blog de Engenharia deles](https://github.blog/category/engineering/?WT.mc_id=academic-105485-koreyst) para mais postagens como [esta](https://github.blog/2023-09-27-how-i-used-github-copilot-chat-to-build-a-reactjs-gallery-prototype/?WT.mc_id=academic-105485-koreyst) que mostra como esses modelos e técnicas são _aplicados_ para impulsionar aplicações do mundo real.
+Você também pode navegar pelo [blog de Engenharia deles](https://github.blog/category/engineering/?) para mais postagens como [esta](https://github.blog/2023-09-27-how-i-used-github-copilot-chat-to-build-a-reactjs-gallery-prototype/?) que mostra como esses modelos e técnicas são _aplicados_ para impulsionar aplicações do mundo real.
 
 ---
 
@@ -180,7 +180,7 @@ Vimos por que a Engenharia de Prompt é importante - agora vamos entender como o
 
 ### Prompt Básico
 
-Vamos começar com o prompt básico: uma entrada de texto enviada ao modelo sem nenhum outro contexto. Aqui está um exemplo - quando enviamos as primeiras palavras do hino nacional dos EUA para a [API de Completions da OpenAI](https://platform.openai.com/docs/api-reference/completions?WT.mc_id=academic-105485-koreyst), ela instantaneamente _completa_ a resposta com as próximas linhas, ilustrando o comportamento básico de previsão.
+Vamos começar com o prompt básico: uma entrada de texto enviada ao modelo sem nenhum outro contexto. Aqui está um exemplo - quando enviamos as primeiras palavras do hino nacional dos EUA para a [API de Completions da OpenAI](https://platform.openai.com/docs/api-reference/completions?), ela instantaneamente _completa_ a resposta com as próximas linhas, ilustrando o comportamento básico de previsão.
 
 | Prompt (Input)     | Completion (Output)                                                                                                                        |
 | :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -188,7 +188,7 @@ Vamos começar com o prompt básico: uma entrada de texto enviada ao modelo sem 
 
 ### Prompt Complexo
 
-Agora, vamos adicionar contexto e instruções a esse prompt básico. A [API de Completions de Chat](https://learn.microsoft.com/azure/ai-services/openai/how-to/chatgpt?WT.mc_id=academic-105485-koreyst) nos permite construir um prompt complexo como uma coleção de _mensagens_ com:
+Agora, vamos adicionar contexto e instruções a esse prompt básico. A [API de Completions de Chat](https://learn.microsoft.com/azure/ai-services/openai/how-to/chatgpt?) nos permite construir um prompt complexo como uma coleção de _mensagens_ com:
 
 - Pares de entrada/saída refletindo a entrada do _usuário_ e a resposta do _assistente_.
 - Mensagem do sistema definindo o contexto para o comportamento ou personalidade do assistente.
@@ -272,13 +272,13 @@ Observe como tivemos que fornecer uma instrução explícita ("Resuma Isso") no 
 
 ### Modelos de Prompt
 
-Um modelo de prompt é uma _receita pré-definida para um prompt_ que pode ser armazenada e reutilizada conforme necessário, para proporcionar experiências do usuário mais consistentes em escala. Em sua forma mais simples, é apenas uma coleção de exemplos de prompt como [este da OpenAI](https://platform.openai.com/examples?WT.mc_id=academic-105485-koreyst) que fornece tanto os componentes interativos do prompt (mensagens do usuário e do sistema) quanto o formato de solicitação impulsionado por API - para suportar a reutilização.
+Um modelo de prompt é uma _receita pré-definida para um prompt_ que pode ser armazenada e reutilizada conforme necessário, para proporcionar experiências do usuário mais consistentes em escala. Em sua forma mais simples, é apenas uma coleção de exemplos de prompt como [este da OpenAI](https://platform.openai.com/examples?) que fornece tanto os componentes interativos do prompt (mensagens do usuário e do sistema) quanto o formato de solicitação impulsionado por API - para suportar a reutilização.
 
-Em sua forma mais complexa, como [este exemplo em LangChain](https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/?WT.mc_id=academic-105485-koreyst), contém _placeholders_ que podem ser substituídos por dados de diversas fontes (entrada do usuário, contexto do sistema, fontes de dados externas etc.) para gerar um prompt dinamicamente. Isso nos permite criar uma biblioteca de prompts reutilizáveis que podem ser usados para impulsionar experiências do usuário consistentes **programaticamente** em escala.
+Em sua forma mais complexa, como [este exemplo em LangChain](https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/?), contém _placeholders_ que podem ser substituídos por dados de diversas fontes (entrada do usuário, contexto do sistema, fontes de dados externas etc.) para gerar um prompt dinamicamente. Isso nos permite criar uma biblioteca de prompts reutilizáveis que podem ser usados para impulsionar experiências do usuário consistentes **programaticamente** em escala.
 
 Finalmente, o real valor dos modelos está na capacidade de criar e publicar _bibliotecas de prompts_ para domínios de aplicação verticais - onde o modelo de prompt é agora _otimizado_ para refletir o contexto ou exemplos específicos do domínio da aplicação que tornam as respostas mais relevantes e precisas para o público-alvo.
 
-A [Prompts For Edu](https://github.com/microsoft/prompts-for-edu?WT.mc_id=academic-105485-koreyst) é um ótimo exemplo dessa abordagem, criando uma biblioteca de prompts para o domínio da educação com ênfase em objetivos-chave como planejamento de aulas, design de currículo, tutoria de estudantes etc.
+A [Prompts For Edu](https://github.com/microsoft/prompts-for-edu?) é um ótimo exemplo dessa abordagem, criando uma biblioteca de prompts para o domínio da educação com ênfase em objetivos-chave como planejamento de aulas, design de currículo, tutoria de estudantes etc.
 
 ## Conteúdo de Suporte
 
@@ -321,7 +321,7 @@ A Engenharia de Prompt é um processo de tentativa e erro, então tenha em mente
 
 ## Melhores Práticas
 
-Agora, vamos dar uma olhada nas práticas recomendadas comuns pela [Open AI](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?WT.mc_id=academic-105485-koreyst) e pelos praticantes da [Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering#best-practices?WT.mc_id=academic-105485-koreyst).
+Agora, vamos dar uma olhada nas práticas recomendadas comuns pela [Open AI](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?) e pelos praticantes da [Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering#best-practices?).
 
 | What                              | Why                                                                                                                                                                                                                                               |
 | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -362,7 +362,7 @@ Para a nossa tarefa, usaremos um Jupyter Notebook com exercícios que você pode
 
 ### Em seguida, configure suas variáveis de ambiente
 
-- Copie o arquivo `.env.copy` na raiz do repositório para `.env` e preencha o valor `OPENAI_API_KEY`. Você pode encontrar sua chave de API em seu [OpenAI Dashboard](https://beta.openai.com/account/api-keys?WT.mc_id=academic-105485-koreyst).
+- Copie o arquivo `.env.copy` na raiz do repositório para `.env` e preencha o valor `OPENAI_API_KEY`. Você pode encontrar sua chave de API em seu [OpenAI Dashboard](https://beta.openai.com/account/api-keys?).
 
 ### Em seguida, abra o Jupyter Notebook
 
@@ -393,6 +393,6 @@ Veja se você consegue aproveitar a técnica de "dica" com a instrução: Comple
 
 ## Ótimo Trabalho! Continue Sua Aprendizagem
 
-Quer aprender mais sobre diferentes conceitos de Engenharia de Instruções? Vá para a [página de aprendizado contínuo](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para encontrar outros ótimos recursos sobre este tema.
+Quer aprender mais sobre diferentes conceitos de Engenharia de Instruções? Vá para a [página de aprendizado contínuo](https://aka.ms/genai-collection?) para encontrar outros ótimos recursos sobre este tema.
 
-Agora, vamos para a Lição 5, onde exploraremos [técnicas avançadas de instrução](../../../05-advanced-prompts/translations/pt-br/README.md?WT.mc_id=academic-105485-koreyst)!
+Agora, vamos para a Lição 5, onde exploraremos [técnicas avançadas de instrução](../../../05-advanced-prompts/translations/pt-br/README.md?)!

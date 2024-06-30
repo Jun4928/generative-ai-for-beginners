@@ -1,4 +1,4 @@
-[![Integrating with function calling](./images/14-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson14-gh?WT.mc_id=academic-105485-koreyst)
+[![Integrating with function calling](./images/14-lesson-banner.png?)](https://aka.ms/gen-ai-lesson14-gh?)
 
 # The Generative AI Application Lifecycle
 
@@ -49,7 +49,7 @@ How could we explore those steps? Let's step into detail in how could we build a
 
 This may look a bit complicated, lets focus on the three big steps first.
 
-1. Ideating/Exploring: Exploration, here we can explore according to our business needs. Prototyping, creating a [PromptFlow](https://microsoft.github.io/promptflow/index.html?WT.mc_id=academic-105485-koreyst) and test if is efficient enough for our Hypothesis.
+1. Ideating/Exploring: Exploration, here we can explore according to our business needs. Prototyping, creating a [PromptFlow](https://microsoft.github.io/promptflow/index.html?) and test if is efficient enough for our Hypothesis.
 1. Building/Augmenting: Implementation, now, we start to evaluate for bigger datasets implement techniques, like Fine-tuning and RAG, to check the robustness of out solution. If it does not, re-implementing it, adding new steps in our flow or restructuring the data, might help. After testing our flow and our scale, if it works and check our Metrics, it is ready for the next step.
 1. Operationalizing: Integration, now adding Monitoring and Alerts Systems to our system, deployment and application integration to our Application.
 
@@ -61,7 +61,7 @@ Now, what tools could we use?
 
 ## Lifecycle Tooling
 
-For Tooling, Microsoft provides the [Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreys) and [PromptFlow](https://microsoft.github.io/promptflow/index.html?WT.mc_id=academic-105485-koreyst) facilitate and make your cycle easy to implement and ready to go.
+For Tooling, Microsoft provides the [Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreys) and [PromptFlow](https://microsoft.github.io/promptflow/index.html?) facilitate and make your cycle easy to implement and ready to go.
 
 The [Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreys), allows you to use [AI Studio](https://ai.azure.com/?WT.mc_id=academic-105485-koreys). AI Studio is a web portal allows you to Explore models, samples and tools. Managing your resources, UI development flows and SDK/CLI options for Code-First development.
 
@@ -81,7 +81,7 @@ Construct, from Proof-of-Concept(POC) until large scale applications with Prompt
 
 ## Great! Continue your Learning!
 
-Amazing, now learn more how we structure an application to use the concepts with the [Contoso Chat App](https://nitya.github.io/contoso-chat/?WT.mc_id=academic-105485-koreyst), to check how Cloud Advocacy adds those concepts in demonstations. For more content, check our [Ignite breakout session!
+Amazing, now learn more how we structure an application to use the concepts with the [Contoso Chat App](https://nitya.github.io/contoso-chat/?), to check how Cloud Advocacy adds those concepts in demonstations. For more content, check our [Ignite breakout session!
 ](https://www.youtube.com/watch?v=DdOylyrTOWg)
 
-Now, check Lesson 15, to understand how [Retrieval Augmented Generation and Vector Databases](../15-rag-and-vector-databases/README.md?WT.mc_id=academic-105485-koreyst) impact Generative AI and to make more engaging Applications!
+Now, check Lesson 15, to understand how [Retrieval Augmented Generation and Vector Databases](../15-rag-and-vector-databases/README.md?) impact Generative AI and to make more engaging Applications!

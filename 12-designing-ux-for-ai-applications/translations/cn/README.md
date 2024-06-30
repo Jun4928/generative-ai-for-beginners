@@ -1,6 +1,6 @@
 # 第十二章：为人工智能应用程序添加用户体验
 
-[![Designing UX for AI Applications](../../images/12-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson12-gh?WT.mc_id=academic-105485-koreyst)
+[![Designing UX for AI Applications](../../images/12-lesson-banner.png?)](https://aka.ms/gen-ai-lesson12-gh?)
 
 _(点击该图片看本章导学视频)_
 
@@ -25,7 +25,7 @@ _(点击该图片看本章导学视频)_
 
 ### 先决条件
 
-花一些时间阅读有关[用户体验和设计思维](https://learn.microsoft.com/training/modules/ux-design?WT.mc_id=academic-105485-koreyst)的更多信息。
+花一些时间阅读有关[用户体验和设计思维](https://learn.microsoft.com/training/modules/ux-design?)的更多信息。
 
 ## 用户体验简介和了解用户需求
 
@@ -49,7 +49,7 @@ _(点击该图片看本章导学视频)_
 
 令人满意意味着该应用程序使用起来令人愉快。 有吸引力的用户体验可以对用户产生积极影响，鼓励他们返回应用程序并增加业务收入。
 
-![图片说明人工智能中的用户体验考虑因素](../../images/uxinai.png?WT.mc_id=academic-105485-koreyst)
+![图片说明人工智能中的用户体验考虑因素](../../images/uxinai.png?)
 
 并非所有挑战都可以通过人工智能解决。 人工智能可以增强您的用户体验，无论是自动化手动任务还是个性化用户体验。
 
@@ -63,25 +63,25 @@ _(点击该图片看本章导学视频)_
 
 当人工智能帮助做出决策（例如向后代传授知识）时，教师和家长了解人工智能决策是如何做出的至关重要。 这就是可解释性——理解人工智能应用程序如何做出决策。 可解释性设计包括添加人工智能应用程序可以做什么的示例的详细信息。 例如，系统可以使用：“使用 AI 总结笔记以便更轻松地复习”，而不是“开始使用 AI 教师”。
 
-![一个应用程序登陆页面，清楚地说明人工智能应用程序中的可解释性](../../images/explanability-in-ai.png?WT.mc_id=academic-105485-koreyst)
+![一个应用程序登陆页面，清楚地说明人工智能应用程序中的可解释性](../../images/explanability-in-ai.png?)
 
 另一个例子是人工智能如何使用用户和个人数据。 例如，具有学生角色的用户可能具有基于其角色的限制。 人工智能可能无法揭示问题的答案，但可以帮助引导用户思考如何解决问题。
 
-![AI根据角色回答问题](../../images/solving-questions.png?WT.mc_id=academic-105485-koreyst)
+![AI根据角色回答问题](../../images/solving-questions.png?)
 
 可解释性的最后一个关键部分是解释的简化。 学生和教师可能不是人工智能专家，因此对应用程序可以做什么或不能做什么的解释应该简化且易于理解。
 
-![AI能力的简单说明](../../images/simplified-explanations.png?WT.mc_id=academic-105485-koreyst)
+![AI能力的简单说明](../../images/simplified-explanations.png?)
 
 ### 控制
 
 生成式人工智能在人工智能和用户之间创建协作，例如用户可以修改不同结果的提示。 此外，一旦生成输出，用户应该能够修改结果，从而给他们一种控制感。 例如，使用 Bing 时，您可以根据格式、语气和长度定制提示。 此外，您可以对输出添加更改并修改输出，如下所示：
 
-![带有修改提示和输出选项的 Bing 搜索结果](../../images/bing1.png?WT.mc_id=academic-105485-koreyst "带有修改提示和输出选项的 Bing 搜索结果")
+![带有修改提示和输出选项的 Bing 搜索结果](../../images/bing1.png? '带有修改提示和输出选项的 Bing 搜索结果')
 
 Bing 中允许用户控制应用程序的另一个功能是能够选择加入和退出 AI 使用的数据。 对于学校申请，学生可能希望使用他们的笔记以及教师的资源作为复习材料。
 
-![带有修改提示和输出选项的 Bing 搜索结果](../../images/bing2.png?WT.mc_id=academic-105485-koreyst "带有修改提示和输出选项的 Bing 搜索结果")
+![带有修改提示和输出选项的 Bing 搜索结果](../../images/bing2.png? '带有修改提示和输出选项的 Bing 搜索结果')
 
 > 在设计人工智能应用程序时，意向性是确保用户不会过度信任对其功能设定不切实际的期望的关键。 做到这一点的一种方法是在提示和结果之间制造摩擦。 提醒用户这是人工智能而不是人类
 
@@ -93,7 +93,7 @@ Bing 中允许用户控制应用程序的另一个功能是能够选择加入和
 
 处理此问题的另一种方法是清楚地传达系统的功能和限制。 当用户请求超出 AI 能力的内容时出错时，还应该有一种方法来处理此问题，如下所示。
 
-![提供反馈和处理错误](../../images/feedback-loops.png?WT.mc_id=academic-105485-koreyst)
+![提供反馈和处理错误](../../images/feedback-loops.png?)
 
 系统错误在用户可能需要人工智能范围之外的信息帮助或者应用程序可能限制用户可以生成摘要的问题/主题的应用程序中很常见。 例如，使用有限科目（例如历史和数学）的数据训练的人工智能应用程序可能无法处理有关地理的问题。 为了缓解这种情况，人工智能系统可以给出这样的响应：“抱歉，我们的产品已经接受了以下主题的数据训练......，我无法回答您提出的问题。”
 
@@ -113,6 +113,6 @@ Bing 中允许用户控制应用程序的另一个功能是能够选择加入和
 
 ## 恭喜您完成本课程
 
-想要了解更多有关为人工智能应用程序设计用户体验的信息吗？ 转至[继进阶学习的页面续学习页面](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) 查找有关此主题的其他重要资源。
+想要了解更多有关为人工智能应用程序设计用户体验的信息吗？ 转至[继进阶学习的页面续学习页面](https://aka.ms/genai-collection?) 查找有关此主题的其他重要资源。
 
-恭喜，您已完成本课程！ 你不应该学完即止。 希望您受到启发，开始创建自己的生成式人工智能初创公司。 前往 [Microsoft Founders Hub](https://aka.ms/genai-Foundershub?WT.mc_id=academic-105485-koreyst) 并申请该计划以并获得支持。
+恭喜，您已完成本课程！ 你不应该学完即止。 希望您受到启发，开始创建自己的生成式人工智能初创公司。 前往 [Microsoft Founders Hub](https://aka.ms/genai-Foundershub?) 并申请该计划以并获得支持。

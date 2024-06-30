@@ -1,6 +1,6 @@
 # 생성형 AI를 활용한 채팅 애플리케이션 구축
 
-[![Generative AI를 활용한 채팅 애플리케이션 구축](../../images/07-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lessons7-gh?WT.mc_id=academic-105485-koreyst)
+[![Generative AI를 활용한 채팅 애플리케이션 구축](../../images/07-lesson-banner.png?)](https://aka.ms/gen-ai-lessons7-gh?)
 
 > _(위의 이미지를 클릭하여 이 레슨의 비디오를 시청하세요)_
 
@@ -11,7 +11,7 @@
 다음과 같은 몇 가지 질문에 대답해야 합니다:
 
 - **앱 구축**. 특정 사용 사례에 대해 이 AI 기반 애플리케이션을 효율적으로 구축하고 원활하게 통합하는 방법은 무엇인가요?
-- **모니터링**. 배포된 후에는 기능과 [책임 있는 AI의 여섯 가지 원칙](https://www.microsoft.com/ai/responsible-ai?WT.mc_id=academic-105485-koreyst)을 준수하는 채로 애플리케이션이 최고 수준의 품질로 작동하는지 어떻게 모니터링할 수 있을까요?
+- **모니터링**. 배포된 후에는 기능과 [책임 있는 AI의 여섯 가지 원칙](https://www.microsoft.com/ai/responsible-ai?)을 준수하는 채로 애플리케이션이 최고 수준의 품질로 작동하는지 어떻게 모니터링할 수 있을까요?
 
 자동화와 원활한 인간-기계 상호작용으로 정의되는 시대로 나아감에 따라, 생성형 AI가 채팅 애플리케이션의 범위, 깊이 및 적응성을 어떻게 변화시키는지 이해하는 것이 필수적입니다. 이 레슨에서는 이러한 복잡한 시스템을 지원하는 아키텍처의 측면을 조사하고, 도메인 특정 작업에 대해 세밀하게 조정하는 방법을 탐구하며, 책임 있는 AI 배포를 보장하기 위한 지표와 고려 사항을 평가할 것입니다.
 
@@ -60,7 +60,7 @@
 - **보다 쉬운 유지보수**: 대부분의 API 및 SDK는 라이브러리의 업데이트만으로 업데이트 및 개선을 쉽게 관리할 수 있습니다.
 - **최첨단 기술에 대한 접근**: 사전에 세밀하게 조정되고 광범위한 데이터셋으로 훈련된 모델을 활용함으로써 애플리케이션에 자연어 기능을 제공할 수 있습니다.
 
-SDK 또는 API의 기능에 액세스하려면 일반적으로 제공된 서비스를 사용할 수 있는 권한을 얻어야 합니다. 이는 일반적으로 고유한 키 또는 인증 토큰을 사용하여 이루어집니다. 우리는 OpenAI Python 라이브러리를 사용하여 이를 탐색해볼 것입니다. 또한 이 레슨을 위한 [OpenAI 노트북](../../python/oai-assigment-simple.ipynb?WT.mc_id=academic-105485-koreyst) 또는 [Azure OpenAI 서비스 노트북](../../python/oai-assignment.ipynb?WT.mc_id=academic-105485-koreys)에서 직접 시도해볼 수도 있습니다.
+SDK 또는 API의 기능에 액세스하려면 일반적으로 제공된 서비스를 사용할 수 있는 권한을 얻어야 합니다. 이는 일반적으로 고유한 키 또는 인증 토큰을 사용하여 이루어집니다. 우리는 OpenAI Python 라이브러리를 사용하여 이를 탐색해볼 것입니다. 또한 이 레슨을 위한 [OpenAI 노트북](../../python/oai-assigment-simple.ipynb?) 또는 [Azure OpenAI 서비스 노트북](../../python/oai-assignment.ipynb?WT.mc_id=academic-105485-koreys)에서 직접 시도해볼 수도 있습니다.
 
 ```python
 import os
@@ -87,15 +87,15 @@ AuthenticationError: No API key provided. You can set your API key in code using
 
 예를 들어, OpenAI의 ChatGPT에서 "사용자 정의 지침 (Custom instructions)" 설정은 개인화의 한 예입니다. 이 설정을 사용하면 프롬프트에 중요한 컨텍스트가 될 수 있는 자기 소개 정보를 제공할 수 있습니다. 다음은 사용자 정의 지침의 예입니다.
 
-![ChatGPT의 사용자 정의 지침 설정](../../images/custom-instructions.png?WT.mc_id=academic-105485-koreyst)
+![ChatGPT의 사용자 정의 지침 설정](../../images/custom-instructions.png?)
 
 이 "프로필"은 ChatGPT에게 연결 리스트에 대한 수업 계획을 생성하도록 요청합니다. ChatGPT는 사용자가 자신의 경험에 기반한 더 깊은 수업 계획을 원할 수 있다는 점을 고려합니다.
 
-![연결 리스트에 대한 수업 계획에 대한 ChatGPT의 프롬프트](../../images/lesson-plan-prompt.png?WT.mc_id=academic-105485-koreyst)
+![연결 리스트에 대한 수업 계획에 대한 ChatGPT의 프롬프트](../../images/lesson-plan-prompt.png?)
 
 ### 대형 언어 모델을 위한 Microsoft의 시스템 메시지 프레임워크
 
-[Microsoft는 LLM(대형 언어 모델)에서 응답을 생성할 때 효과적인 시스템 메시지 작성에 대한 지침](https://learn.microsoft.com/azure/ai-services/openai/concepts/system-message#define-the-models-output-format?WT.mc_id=academic-105485-koreyst)을 제공하고 있으며, 다음 4가지 영역으로 구분됩니다:
+[Microsoft는 LLM(대형 언어 모델)에서 응답을 생성할 때 효과적인 시스템 메시지 작성에 대한 지침](https://learn.microsoft.com/azure/ai-services/openai/concepts/system-message#define-the-models-output-format?)을 제공하고 있으며, 다음 4가지 영역으로 구분됩니다:
 
 1. 모델을 사용하는 대상, 기능 및 제한 사항 정의
 2. 모델의 출력 형식 정의
@@ -175,10 +175,10 @@ Microsoft의 책임 있는 AI 접근 방식은 AI 개발과 사용을 안내하�
 
 ## 과제
 
-[과제](../../python/aoai-assigment-simple.ipynb?WT.mc_id=academic-105485-koreyst)를 확인하세요. 이 과제에서는 첫 번째 채팅 프롬프트 실행부터 텍스트 분류 및 요약 등 다양한 연습을 진행합니다.
+[과제](../../python/aoai-assigment-simple.ipynb?)를 확인하세요. 이 과제에서는 첫 번째 채팅 프롬프트 실행부터 텍스트 분류 및 요약 등 다양한 연습을 진행합니다.
 
 ## 수고하셨습니다! 계속해서 학습을 진행하세요
 
-이 레슨을 완료한 후 [Generative AI Learning collection](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst)을 확인하여 Generative AI 지식을 계속해서 향상시킬 수 있습니다!
+이 레슨을 완료한 후 [Generative AI Learning collection](https://aka.ms/genai-collection?)을 확인하여 Generative AI 지식을 계속해서 향상시킬 수 있습니다!
 
-[검색 애플리케이션 구축](../../../08-building-search-applications/translations/ko/README.md?WT.mc_id=academic-105485-koreyst)을 시작하는 방법을 알아보려면 레슨 8로 이동하세요!
+[검색 애플리케이션 구축](../../../08-building-search-applications/translations/ko/README.md?)을 시작하는 방법을 알아보려면 레슨 8로 이동하세요!

@@ -1,6 +1,6 @@
 # Integrando com chamadas de função
 
-[![Integrating with function calling](../../images/11-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson11-gh?WT.mc_id=academic-105485-koreyst)
+[![Integrating with function calling](../../images/11-lesson-banner.png?)](https://aka.ms/gen-ai-lesson11-gh?)
 
 Você aprendeu bastante até agora nas lições anteriores. No entanto, podemos melhorar ainda mais. Algumas coisas que podemos abordar são como podemos obter um formato de resposta mais consistente para facilitar o trabalho com a resposta a jusante. Além disso, podemos querer adicionar dados de outras fontes para enriquecer ainda mais nossa aplicação.
 
@@ -165,7 +165,7 @@ Agora nós podemos enviar ambas as solicitações para o LLM e examinar a respos
 
 Então, como resolvemos o problema de formatação? Ao usar chamadas de função, podemos garantir que recebemos dados estruturados de volta. Ao usar chamadas de função, o LLM na verdade não chama ou executa funções. Em vez disso, criamos uma estrutura para o LLM seguir para suas respostas. Em seguida, usamos essas respostas estruturadas para saber qual função executar em nossos aplicativos.
 
-![fluxo de função](../../images/Function-Flow.png?WT.mc_id=academic-105485-koreyst)
+![fluxo de função](../../images/Function-Flow.png?)
 
 Podemos então pegar o que é retornado da função e enviar isso de volta ao LLM. O LLM responderá usando linguagem natural para responder à consulta do usuário.
 
@@ -187,7 +187,7 @@ O processo de criar uma chamada de função inclui 3 etapas principais:
 2. **Lendo** a resposta do modelo para realizar uma ação, ou seja, executar uma função ou chamada de API.
 3. **Fazendo** outra chamada para a API de Completions de Chat com a resposta de sua função para usar essas informações e criar uma resposta para o usuário.
 
-![Fluxo LLM](../../images/LLM-Flow.png?WT.mc_id=academic-105485-koreyst)
+![Fluxo LLM](../../images/LLM-Flow.png?)
 
 ### Etapa 1 - criando mensagens
 
@@ -446,10 +446,10 @@ Para continuar seu aprendizado sobre a Chamada de Função do Azure Open AI, voc
 - Criar outra chamada de função que obtenha mais informações do aprendiz, como o idioma nativo.
 - Implementar tratamento de erro quando a chamada de função e/ou a chamada da API não retornar cursos adequados.
 
-Dica: Consulte a [documentação de referência da API Learn](https://learn.microsoft.com/training/support/catalog-api-developer-reference?WT.mc_id=academic-105485-koreyst) para ver como e onde esses dados estão disponíveis.
+Dica: Consulte a [documentação de referência da API Learn](https://learn.microsoft.com/training/support/catalog-api-developer-reference?) para ver como e onde esses dados estão disponíveis.
 
 ## Ótimo trabalho! Continue a jornada
 
-Após completar esta lição, confira nossa [coleção de aprendizado sobre IA Generativa](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para continuar a aprimorar seus conhecimentos em IA Generativa!
+Após completar esta lição, confira nossa [coleção de aprendizado sobre IA Generativa](https://aka.ms/genai-collection?) para continuar a aprimorar seus conhecimentos em IA Generativa!
 
-Vá para a Lição 12, onde veremos como [Projetando UX para aplicativos de IA](../../../12-designing-ux-for-ai-applications/translations/pt-br/README.md?WT.mc_id=academic-105485-koreyst)!
+Vá para a Lição 12, onde veremos como [Projetando UX para aplicativos de IA](../../../12-designing-ux-for-ai-applications/translations/pt-br/README.md?)!

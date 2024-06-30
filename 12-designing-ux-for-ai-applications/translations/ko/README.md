@@ -1,6 +1,6 @@
 # AI 애플리케이션을 위한 사용자 경험(ux) 디자인하기
 
-[![Designing UX for AI Applications](../../images/12-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson12-gh?WT.mc_id=academic-105485-koreyst)
+[![Designing UX for AI Applications](../../images/12-lesson-banner.png?)](https://aka.ms/gen-ai-lesson12-gh?)
 
 > _(이미지를 클릭하면 이 수업의 비디오를 볼 수 있습니다)_
 
@@ -25,7 +25,7 @@
 
 ### 전제 조건
 
-다음에 대해 더 읽어보십시오. [user experience and design thinking.](https://learn.microsoft.com/training/modules/ux-design?WT.mc_id=academic-105485-koreyst)
+다음에 대해 더 읽어보십시오. [user experience and design thinking.](https://learn.microsoft.com/training/modules/ux-design?)
 
 ## 사용자 경험 소개 및 사용자 요구 이해
 
@@ -49,7 +49,7 @@
 
 즐거움을 준다는 것은 애플리케이션의 사용이 즐거움을 주는 것을 의미합니다. 매력적인 사용자 경험은 사용자에게 긍정적인 영향을 미칠 수 있어 애플리케이션에 다시 돌아오게 유도하고 비즈니스 수익을 증가시킬 수 있습니다.
 
-![image illustrating UX considerations in AI](../../images/uxinai.png?WT.mc_id=academic-105485-koreyst)
+![image illustrating UX considerations in AI](../../images/uxinai.png?)
 
 모든 문제를 AI로 해결할 수 있는 것은 아닙니다. AI는 사용자 경험을 증진시키기 위해 나타납니다. 이는 수동적인 작업을 자동화하거나 사용자 경험을 개인화하는 것과 같은 방식으로 이루어질 수 있습니다.
 
@@ -63,25 +63,25 @@
 
 AI가 미래 세대에 지식을 전달하는 것과 같이 결정에 도움이 되는 경우, 교사와 부모가 AI 결정이 어떻게 이루어지는지 이해하는 것이 중요합니다. AI 애플리케이션이 결정을 내리는 방식을 이해하는 것이 설명가능성입니다. 설명가능성을 위한 디자인에는 AI 애플리케이션이 수행할 수 있는 예제의 세부 정보를 추가하는 것이 포함됩니다. 예를 들어, "AI 교사로 시작하기" 대신에 "AI를 사용하여 노트를 요약하여 쉬운 복습을 도와보세요"와 같이 시스템이 구체적인 예시를 제공할 수 있습니다.
 
-![an app landing page with clear illustration of explainability in AI applications](../../images/explanability-in-ai.png?WT.mc_id=academic-105485-koreyst)
+![an app landing page with clear illustration of explainability in AI applications](../../images/explanability-in-ai.png?)
 
 또 다른 예로는 AI가 사용자 및 개인 데이터를 사용하는 방법이 있습니다. 예를 들어, 학생이라는 페르소나를 가진 사용자는 해당 페르소나에 기반한 제한이 있을 수 있습니다. AI는 질문에 대한 답을 드러낼 수 없을지라도 사용자가 문제를 어떻게 해결할지에 대한 가이드를 제공할 수 있습니다.
 
-![AI replying to questions based on persona](../../images/solving-questions.png?WT.mc_id=academic-105485-koreyst)
+![AI replying to questions based on persona](../../images/solving-questions.png?)
 
 설명가능성의 마지막 중요한 부분은 설명을 단순화하는 것입니다. 학생들과 교사들이 AI 전문가가 아닐 수 있기 때문에 애플리케이션이 할 수 있는 일이나 할 수 없는 일에 대한 설명은 단순하고 이해하기 쉽게 제공되어야 합니다.
 
-![simplified explanations on AI capabilities](../../images/simplified-explanations.png?WT.mc_id=academic-105485-koreyst)
+![simplified explanations on AI capabilities](../../images/simplified-explanations.png?)
 
 ### 제어
 
 생성형 AI는 사용자와 AI 간의 협력을 만들어냅니다. 예를 들어 사용자는 서로 다른 결과를 얻기 위해 프롬프트를 수정할 수 있습니다. 또한, 한 번 출력물이 생성되면 사용자는 자신의 통제대로 결과를 수정하여 얻을 수 있어야 합니다. 예를 들어, Bing을 사용할 때는 형식, 어조, 길이에 기반하여 프롬프트를 맞춤 설정할 수 있습니다. 더불어 결과에 변경을 추가하거나 출력물을 수정할 수 있습니다. 아래에 표시된 것처럼요:
 
-![Bing search results with options to modify the prompt and output](../../images/bing1.png?WT.mc_id=academic-105485-koreyst "Bing search results with options to modify the prompt and output")
+![Bing search results with options to modify the prompt and output](../../images/bing1.png? 'Bing search results with options to modify the prompt and output')
 
 Bing의 또 다른 기능 중 하나는 사용자가 애플리케이션을 통제할 수 있도록 데이터 사용에 동의하거나 동의를 철회할 수 있는 기능입니다. 예를 들어 학교 애플리케이션의 경우 학생은 자신의 노트와 교사의 자료를 복습 자료로 활용하고 싶을 것입니다.
 
-![Bing search results with options to modify the prompt and output](../../images/bing2.png?WT.mc_id=academic-105485-koreyst "Bing search results with options to modify the prompt and output")
+![Bing search results with options to modify the prompt and output](../../images/bing2.png? 'Bing search results with options to modify the prompt and output')
 
 > AI 애플리케이션을 디자인할 때 의도성(intentionality)은 사용자가 능력을 과대평가하거나 현실적이지 않은 기대를 설정하지 않도록 하는 데 핵심적인 역할을 합니다. 이를 위한 한 가지 방법은 프롬프트와 결과 사이에 마찰을 만들어내는 것입니다. 사용자에게 이것이 AI이며 인간이 아니라는 점을 상기시켜 사용자에게 경고하는 것입니다.
 
@@ -93,7 +93,7 @@ AI 애플리케이션은 피드백을 받고 주는 데에 적합하게 구축�
 
 이를 처리하는 또 다른 방법은 시스템의 능력과 제한을 명확하게 전달하는 것입니다. 사용자가 AI 능력을 넘어서는 것을 요청할 때, 이에 대한 처리 방법도 명시되어야 합니다. 아래에 표시된 것처럼 사용자가 AI 능력을 벗어난 요청을 할 경우에 대한 처리 방법이 있어야 합니다.
 
-![Giving feedback and handling errors](../../images/feedback-loops.png?WT.mc_id=academic-105485-koreyst)
+![Giving feedback and handling errors](../../images/feedback-loops.png?)
 
 시스템 오류는 사용자가 AI의 범위를 벗어난 정보와 관련한 도움이 필요한 경우나 애플리케이션이 사용자가 생성할 수 있는 질문/주제의 수에 제한을 둔 경우에 흔히 발생합니다. 예를 들어, 역사와 수학과 같은 한정된 주제의 데이터로 훈련된 AI 애플리케이션은 지리와 관련된 질문에 대응할 수 없을 것입니다. 이를 완화하기 위해 AI 시스템은 다음과 같은 응답을 할 수 있습니다: "죄송합니다만, 저희 제품은 다음과 같은 주제의 데이터로 훈련되었기 때문에... 당신이 물은 질문에 답할 수 없습니다."
 
@@ -115,6 +115,6 @@ AI 애플리케이션은 완벽하지 않기 때문에 오류가 발생할 수 �
 
 ## 축하합니다, 이번 코스를 완료하였습니다.
 
-이 수업이 끝났으니 우리의 [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) 수업을 들어, 생성형 AI에 관한 지식을 계속해서 쌓아보세요!
+이 수업이 끝났으니 우리의 [Generative AI 학습 컬렉션](https://aka.ms/genai-collection?) 수업을 들어, 생성형 AI에 관한 지식을 계속해서 쌓아보세요!
 
-축하합니다, 이번 코스를 완료하였습니다! 그러나 여기서 멈추면 안됩니다. 바라건대, 당신이 당신만의 생성형 AI 스타트업을 만드는 것에 영감을 얻었으면 좋겠습니다. 여기 [Microsoft Founders Hub](https://aka.ms/genai-foundershub?WT.mc_id=academic-105485-koreyst)로 이동하여 당신의 여정에 도움을 주기 위한 프로그램에 신청해보세요.
+축하합니다, 이번 코스를 완료하였습니다! 그러나 여기서 멈추면 안됩니다. 바라건대, 당신이 당신만의 생성형 AI 스타트업을 만드는 것에 영감을 얻었으면 좋겠습니다. 여기 [Microsoft Founders Hub](https://aka.ms/genai-foundershub?)로 이동하여 당신의 여정에 도움을 주기 위한 프로그램에 신청해보세요.

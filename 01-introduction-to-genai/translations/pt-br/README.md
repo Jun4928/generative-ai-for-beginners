@@ -1,6 +1,6 @@
 # Introdução à Inteligência Artificial Generativa e Grandes Modelos de Linguagem
 
-[![Introduction to Generative AI and Large Language Models](../../images/01-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson-1-gh?WT.mc_id=academic-105485-koreyst)
+[![Introduction to Generative AI and Large Language Models](../../images/01-lesson-banner.png?)](https://aka.ms/gen-ai-lesson-1-gh?)
 
 _(Clique na imagem acima para assistir ao vídeo desta lição)_
 
@@ -34,13 +34,13 @@ A equipe de nossa startup está ciente de que não será capaz de alcançar esse
 
 A IA generativa deve revolucionar a maneira como aprendemos e ensinamos hoje, com os(as) alunos(as) tendo à disposição professores(as) virtuais 24 horas por dia, que fornecem vastas quantidades de informações e exemplos, e professores(as) capazes de alavancar ferramentas inovadoras para avaliar seus/suas alunos(as) e fornecer feedback.
 
-![Five young students looking at a monitor - image by DALLE2](../../images/students-by-DALLE2.png?WT.mc_id=academic-105485-koreyst)
+![Five young students looking at a monitor - image by DALLE2](../../images/students-by-DALLE2.png?)
 
 Para começar, vamos definir alguns conceitos e terminologia básica que usaremos ao longo do currículo.
 
 ## Como surgiu a IA Generativa?
 
-Apesar da extraordinária _hype_ criada recentemente com o anúncio de modelos de IA generativa, essa tecnologia está em desenvolvimento há décadas, com os primeiros esforços de pesquisa datando dos anos 60. Agora estamos em um ponto em que a IA possui capacidades cognitivas humanas como conversação, como mostrado por exemplo, no [OpenAI ChatGPT](https://openai.com/chatgpt?WT.mc_id=academic-105485-koreyst) ou no [Bing Chat](https://www.microsoft.com/edge/features/bing-chat?WT.mc_id=academic-105485-koreyst), que também utiliza um modelo GPT para a pesquisa na web e conversas do Bing.
+Apesar da extraordinária _hype_ criada recentemente com o anúncio de modelos de IA generativa, essa tecnologia está em desenvolvimento há décadas, com os primeiros esforços de pesquisa datando dos anos 60. Agora estamos em um ponto em que a IA possui capacidades cognitivas humanas como conversação, como mostrado por exemplo, no [OpenAI ChatGPT](https://openai.com/chatgpt?) ou no [Bing Chat](https://www.microsoft.com/edge/features/bing-chat?), que também utiliza um modelo GPT para a pesquisa na web e conversas do Bing.
 
 Voltando um pouco, os primeiros protótipos de IA consistiam em chatbots datilografados, baseando-se em uma base de conhecimento extraída de um grupo de especialistas e representada em um computador. As respostas na base de conhecimento eram acionadas por palavras-chave que apareciam no texto de entrada.
 No entanto, logo ficou claro que tal abordagem, usando chatbots datilografados, não se escalava bem.
@@ -61,7 +61,7 @@ Essa é a tecnologia que impulsionou os assistentes virtuais nascidos na primeir
 
 Foi assim que chegamos à IA Generativa de hoje, que pode ser vista como um subconjunto de aprendizado profundo.
 
-![IA, ML, AP e IA Generativa](../../images/AI-diagram.png?WT.mc_id=academic-105485-koreyst)
+![IA, ML, AP e IA Generativa](../../images/AI-diagram.png?)
 
 Depois de décadas de pesquisa no campo da IA, uma nova arquitetura de modelo - chamada _Transformer_ - superou os limites das `RNNs`. Sendo capaz de receber sequências de texto muito mais longas como entrada. Os `Transformers` são baseados no mecanismo de atenção, permitindo que o modelo dê pesos diferentes às entradas que recebe, _prestando mais atenção_ onde as informações mais relevantes estão concentradas, independentemente de sua ordem na sequência de texto.
 
@@ -73,7 +73,7 @@ No próximo capítulo, vamos explorar diferentes tipos de modelos de IA generati
 
 - **Tokenizador, texto para números**: Grandes Modelos de Linguagem, recebem um texto como entrada e geram um texto como saída. No entanto, sendo modelos estatísticos, eles funcionam muito melhor com números do que sequências de texto. É por isso que cada entrada no modelo é processada por um `tokenizador` antes de ser usada pelo modelo principal. Um `token` é um pedaço de texto - consistindo em um número variável de caracteres, portanto, a principal tarefa do tokenizador é dividir a entrada em uma matriz de tokens. Em seguida, cada token é mapeado com um índice de token, que é a codificação inteira do trecho de texto original.
 
-![Example of tokenization](../../images/tokenizer-example.png?WT.mc_id=academic-105485-koreyst)
+![Example of tokenization](../../images/tokenizer-example.png?)
 
 - **Previsão de tokens de saída**: Dados `n` tokens como entrada (com o máximo `n` variando de um modelo para outro), o modelo é capaz de prever um token como saída. Esse token é então incorporado à entrada da próxima iteração em um padrão de janela expansiva. Possibilitando assim, uma melhor experiência do usuário em obter uma (ou várias) sentenças como resposta. Isso explica por que, se você já brincou com o ChatGPT, pode ter notado que às vezes parece que ele para no meio de uma frase.
 
@@ -90,19 +90,19 @@ A entrada de um grande modelo de linguagem é conhecida como `prompt`. Enquanto 
 - Uma **instrução** especificando o tipo de saída que esperamos do modelo. Essa instrução às vezes pode incorporar alguns exemplos ou alguns dados adicionais.
 
   1. Resumo de um artigo, livro, análises de produtos e muito mais. Juntamente com a extração de insights de dados não estruturados.
-     ![Exemplo de resumo](../../images/summarization-example.png?WT.mc_id=academic-105485-koreyst)
+     ![Exemplo de resumo](../../images/summarization-example.png?)
 
   2. Ideação criativa e design de um artigo, uma redação, uma tarefa ou mais.
-     ![Exemplo de escrita criativa](../../images/creative-writing-example.png?WT.mc_id=academic-105485-koreyst)
+     ![Exemplo de escrita criativa](../../images/creative-writing-example.png?)
 
 - Uma **pergunta** feita na forma de uma conversa com um agente.
-  ![Exemplo de conversa](../../images/conversation-example.png?WT.mc_id=academic-105485-koreyst)
+  ![Exemplo de conversa](../../images/conversation-example.png?)
 
 - Um trecho de **texto a ser completado** que implicitamente é um pedido de assistência na escrita.
-  ![Exemplo de conclusão de texto](../../images/text-completion-example.png?WT.mc_id=academic-105485-koreyst)
+  ![Exemplo de conclusão de texto](../../images/text-completion-example.png?)
 
 - Um trecho de **código** juntamente com a solicitação de explicá-lo e documentá-lo ou um comentário pedindo para gerar um trecho de código que execute uma tarefa específica.
-  ![Exemplo de programação](../../images/coding-example.png?WT.mc_id=academic-105485-koreyst)
+  ![Exemplo de programação](../../images/coding-example.png?)
 
 Os exemplos acima são bastante simples e não pretendem ser uma demonstração exaustiva das capacidades dos Grandes Modelos de Linguagem. Eles apenas querem mostrar o potencial de uso da IA generativa, em particular, mas não limitado ao contexto educacional.
 
@@ -110,14 +110,14 @@ Além disso, a saída de um modelo de IA generativa não é perfeita e, às veze
 
 # Tarefa
 
-Sua tarefa é estudar mais sobre [IA Generativa](https://en.wikipedia.org/wiki/Generative_artificial_intelligence?WT.mc_id=academic-105485-koreyst) e tentar identificar uma área onde você adicionaria IA Generativa hoje mas que ainda não a possui. Como o impacto seria diferente de fazer as coisas do "jeito antigo"? Você pode fazer algo que não era possível antes ou que seria mais rápido? Escreva um resumo de 300 palavras sobre como sua startup da IA dos sonhos seria e inclua cabeçalhos como:
+Sua tarefa é estudar mais sobre [IA Generativa](https://en.wikipedia.org/wiki/Generative_artificial_intelligence?) e tentar identificar uma área onde você adicionaria IA Generativa hoje mas que ainda não a possui. Como o impacto seria diferente de fazer as coisas do "jeito antigo"? Você pode fazer algo que não era possível antes ou que seria mais rápido? Escreva um resumo de 300 palavras sobre como sua startup da IA dos sonhos seria e inclua cabeçalhos como:
 
 - "Problema"
 - "Como eu usaria a IA"
 - "Impacto"
 - E, como opção, um plano de negócios.
 
-Se você fizer essa tarefa, poderá até estar pronto para se inscrever no [Microsoft's Incubator](https://www.microsoft.com/startups?WT.mc_id=academic-105485-koreyst) para fundadores de startups. Eles oferecem créditos para Azure, OpenAI, mentoria e muito mais. Confira agora mesmo!
+Se você fizer essa tarefa, poderá até estar pronto para se inscrever no [Microsoft's Incubator](https://www.microsoft.com/startups?) para fundadores de startups. Eles oferecem créditos para Azure, OpenAI, mentoria e muito mais. Confira agora mesmo!
 
 ## Verificação de conhecimento
 
@@ -131,6 +131,6 @@ O que é verdade sobre Grandes Modelos de Linguagem?
 
 ## Ótimo trabalho! A Jornada Continua
 
-Deseja aprender mais sobre diferentes conceitos de IA Generativa? Acesse a [página de Aprendizado Contínuo](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para encontrar outros ótimos recursos sobre este tópico.
+Deseja aprender mais sobre diferentes conceitos de IA Generativa? Acesse a [página de Aprendizado Contínuo](https://aka.ms/genai-collection?) para encontrar outros ótimos recursos sobre este tópico.
 
-Vá para a Lição 2, onde veremos como [Explorar e comparar diferentes tipos de LLM](../../../02-exploring-and-comparing-different-llms/translations/pt-br/README.md?WT.mc_id=academic-105485-koreyst)!
+Vá para a Lição 2, onde veremos como [Explorar e comparar diferentes tipos de LLM](../../../02-exploring-and-comparing-different-llms/translations/pt-br/README.md?)!

@@ -8,14 +8,14 @@ The transcription data prep scripts have been tested on the latest releases Wind
 
 > [!IMPORTANT]
 > We suggest you update the Azure CLI to the latest version to ensure compatibility with OpenAI
-> See [Documentation](https://learn.microsoft.com/cli/azure/update-azure-cli?WT.mc_id=academic-105485-koreyst)
+> See [Documentation](https://learn.microsoft.com/cli/azure/update-azure-cli?)
 
 1. Create a resource group
 
 > [!NOTE]
 > For these instructions we're using the resource group named "semantic-video-search" in East US.
-> You can change the name of the resource group, but when changing the location for the resources, 
-> check the [model availability table](https://aka.ms/oai/models?WT.mc_id=academic-105485-koreyst).
+> You can change the name of the resource group, but when changing the location for the resources,
+> check the [model availability table](https://aka.ms/oai/models?).
 
 ```console
 az group create --name semantic-video-search --location eastus
@@ -63,7 +63,7 @@ az cognitiveservices account deployment create \
 
 ## Required software
 
-- [Python 3.9](https://www.python.org/downloads/?WT.mc_id=academic-105485-koreyst) or greater
+- [Python 3.9](https://www.python.org/downloads/?) or greater
 
 ## Environment variables
 
@@ -103,12 +103,12 @@ export GOOGLE_DEVELOPER_API_KEY=<your Google developer API key>
 
 ## Install the required Python libraries
 
-1. Install the [git client](https://git-scm.com/downloads?WT.mc_id=academic-105485-koreyst) if it's not already installed.
+1. Install the [git client](https://git-scm.com/downloads?) if it's not already installed.
 1. From a `Terminal` window, clone the sample to your preferred repo folder.
 
-    ```bash
-    git clone https://github.com/gloveboxes/semanic-search-openai-embeddings-functions.git
-    ```
+   ```bash
+   git clone https://github.com/gloveboxes/semanic-search-openai-embeddings-functions.git
+   ```
 
 1. Navigate to the `data_prep` folder.
 
@@ -118,17 +118,17 @@ export GOOGLE_DEVELOPER_API_KEY=<your Google developer API key>
 
 1. Create a Python virtual environment.
 
-    On Windows:
+   On Windows:
 
-    ```powershell
-    python -m venv .venv
-    ```
+   ```powershell
+   python -m venv .venv
+   ```
 
-    On macOS and Linux:
+   On macOS and Linux:
 
-    ```bash
-    python3 -m venv .venv
-    ```
+   ```bash
+   python3 -m venv .venv
+   ```
 
 1. Activate the Python virtual environment.
 

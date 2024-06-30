@@ -1,6 +1,6 @@
 # Criando aplicativos de geração de imagens
 
-[![Building Image Generation Applications](../../images/09-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson9-gh?WT.mc_id=academic-105485-koreyst)
+[![Building Image Generation Applications](../../images/09-lesson-banner.png?)](https://aka.ms/gen-ai-lesson9-gh?)
 
 Ainda há muito mais que os LLMs podem fazer além da geração de texto. Também é possível gerar imagens a partir de descrições de texto. Ter imagens como modalidade pode ser altamente útil em uma série de áreas, desde MedTech, arquitetura, turismo, desenvolvimento de jogos e muito mais. Neste capítulo, veremos os dois modelos de geração de imagens mais populares, DALL-E e Midjourney.
 
@@ -34,7 +34,7 @@ As part of this lesson, we will continue to work with our startup, Edu4All, in t
 
 Here's what Edu4All's students could generate for example if they're working in class on monuments:
 
-![Edu4All startup, class on monuments, Eiffel Tower](../../images/startup.png?WT.mc_id=academic-105485-koreyst)
+![Edu4All startup, class on monuments, Eiffel Tower](../../images/startup.png?)
 
 using a prompt like
 
@@ -68,7 +68,7 @@ Como parte desta lição, continuaremos a trabalhar com nossa startup, Edu4All. 
 
 Veja o que os estudantes da Edu4All poderiam gerar, por exemplo, se estivessem trabalhando em sala de aula sobre monumentos:
 
-![Edu4All startup, aula sobre monumentos, Torre Eiffel](../../images/startup.png?WT.mc_id=academic-105485-koreyst)
+![Edu4All startup, aula sobre monumentos, Torre Eiffel](../../images/startup.png?)
 
 usando um prompt como:
 
@@ -76,13 +76,13 @@ usando um prompt como:
 
 ## O que é DALL-E e Midjourney?
 
-[DALL-E](https://openai.com/dall-e-2?WT.mc_id=academic-105485-koreyst) e [Midjourney](https://www.midjourney.com/?WT.mc_id=academic-105485-koreyst) são dois dos modelos de geração de imagens mais populares, eles permitem que você use prompts para gerar imagens.
+[DALL-E](https://openai.com/dall-e-2?) e [Midjourney](https://www.midjourney.com/?) são dois dos modelos de geração de imagens mais populares, eles permitem que você use prompts para gerar imagens.
 
 ### DALL-E
 
 Vamos começar com o DALL-E, que é um modelo de Inteligência Artificial Generativa que gera imagens a partir de descrições de texto.
 
-> [DALL-E é uma combinação de dois modelos, CLIP e atenção difusa](https://towardsdatascience.com/openais-dall-e-and-clip-101-a-brief-introduction-3a4367280d4e?WT.mc_id=academic-105485-koreyst).
+> [DALL-E é uma combinação de dois modelos, CLIP e atenção difusa](https://towardsdatascience.com/openais-dall-e-and-clip-101-a-brief-introduction-3a4367280d4e?).
 
 - **CLIP** é um modelo que gera embeddings, que são representações numéricas de dados, a partir de imagens e texto.
 
@@ -92,12 +92,12 @@ Vamos começar com o DALL-E, que é um modelo de Inteligência Artificial Genera
 
 Midjourney funciona de maneira semelhante ao DALL-E, gerando imagens a partir de prompts de texto. Midjourney também pode ser usado para gerar imagens usando prompts como "um gato com chapéu" ou "um cachorro com um moicano".
 
-![Imagem gerada pelo Midjourney, pombo mecânico](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rupert_Breheny_mechanical_dove_eca144e7-476d-4976-821d-a49c408e4f36.png/440px-Rupert_Breheny_mechanical_dove_eca144e7-476d-4976-821d-a49c408e4f36.png?WT.mc_id=academic-105485-koreyst)
+![Imagem gerada pelo Midjourney, pombo mecânico](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rupert_Breheny_mechanical_dove_eca144e7-476d-4976-821d-a49c408e4f36.png/440px-Rupert_Breheny_mechanical_dove_eca144e7-476d-4976-821d-a49c408e4f36.png?)
 _Créditos da imagem: Wikipedia, imagem gerada pelo Midjourney_
 
 ## Como DALL-E e Midjourney Funcionam
 
-Primeiro, [DALL-E](https://arxiv.org/pdf/2102.12092.pdf?WT.mc_id=academic-105485-koreyst). DALL-E é um modelo de Inteligência Artificial Generativa baseado na arquitetura do transformer com um _transformer autoregressivo_.
+Primeiro, [DALL-E](https://arxiv.org/pdf/2102.12092.pdf?). DALL-E é um modelo de Inteligência Artificial Generativa baseado na arquitetura do transformer com um _transformer autoregressivo_.
 
 Um _transformer autoregressivo_ define como um modelo gera imagens a partir de descrições de texto, gerando um pixel de cada vez e, em seguida, usando os pixels gerados para gerar o próximo pixel. Passando por várias camadas em uma rede neural, até que a imagem esteja completa.
 
@@ -319,11 +319,11 @@ Vamos dar uma olhada em um exemplo de como a temperatura funciona, executando es
 
 > Prompt : "Bunny on horse, holding a lollipop, on a foggy meadow where it grows daffodils"
 
-![Bunny on a horse holding a lollipop, version 1](../../images/v1-generated-image.png?WT.mc_id=academic-105485-koreyst)
+![Bunny on a horse holding a lollipop, version 1](../../images/v1-generated-image.png?)
 
 Agora, vamos executar o mesmo prompt apenas para ver que não obteremos a mesma imagem duas vezes:
 
-![Generated image of bunny on horse](../../images/v2-generated-image.png?WT.mc_id=academic-105485-koreyst)
+![Generated image of bunny on horse](../../images/v2-generated-image.png?)
 
 Como você pode ver, as imagens são semelhantes, mas não são as mesmas. Vamos tentar mudar o valor da temperatura para 0.1 e ver o que acontece:
 
@@ -352,8 +352,8 @@ generation_response = openai.Image.create(
 
 Agora quando você executar este código, você obtém essas duas imagens:
 
-- ![Temperature 0, v1](../../images/v1-temp-generated-image.png?WT.mc_id=academic-105485-koreyst)
-- ![Temperature 0 , v2](../../images/v2-temp-generated-image.png?WT.mc_id=academic-105485-koreyst)
+- ![Temperature 0, v1](../../images/v1-temp-generated-image.png?)
+- ![Temperature 0 , v2](../../images/v2-temp-generated-image.png?)
 
 Aqui você pode ver claramente como as imagens se assemelham mais umas às outras.
 
@@ -499,6 +499,6 @@ except openai.error.InvalidRequestError as err:
 
 ## Excelente trabalho! Continue seu aprendizado
 
-Após completar esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) para continuar a aprimorar seus conhecimentos sobre IA generativa!
+Após completar esta lição, confira nossa [coleção de aprendizado de IA generativa](https://aka.ms/genai-collection?) para continuar a aprimorar seus conhecimentos sobre IA generativa!
 
-Vamos partir agora para a Lição 10, onde veremos como [Criando aplicativos de IA com Low Code](../../../10-building-low-code-ai-applications/translations/pt-br/README.md?WT.mc_id=academic-105485-koreyst)
+Vamos partir agora para a Lição 10, onde veremos como [Criando aplicativos de IA com Low Code](../../../10-building-low-code-ai-applications/translations/pt-br/README.md?)

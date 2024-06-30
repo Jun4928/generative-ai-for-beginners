@@ -1,4 +1,4 @@
-[![Open Source Models](./images/17-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson17-gh?WT.mc_id=academic-105485-koreyst)
+[![Open Source Models](./images/17-lesson-banner.png?)](https://aka.ms/gen-ai-lesson17-gh?)
 
 ## Introduction
 
@@ -24,7 +24,7 @@ AI Agents are a very exciting field in the world of Generative AI. With this exc
 
 AI Agents allow Large Language Models (LLMs) to perform tasks by giving them access to a **state** and **tools**.
 
-![Agent Model](images/what-agent.png?WT.mc_id=academic-105485-koreyst)
+![Agent Model](images/what-agent.png?)
 
 Let's define these terms:
 
@@ -38,15 +38,15 @@ These definitions will hopefully give you a good grounding going forward as we l
 
 ## LangChain Agents
 
-[LangChain Agents](https://python.langchain.com/docs/modules/agents/?WT.mc_id=academic-105485-koreyst) is an implementation of the definitions we provided above.
+[LangChain Agents](https://python.langchain.com/docs/modules/agents/?) is an implementation of the definitions we provided above.
 
 To manage the **state** , it uses a built-in function called the `AgentExecutor`. This accepts the defined `agent` and the `tools` that are available to it.
 
 The `Agent Executor` also stores the chat history to provide the context of the chat.
 
-![Langchain Agents](images/langchain-agents.png?WT.mc_id=academic-105485-koreyst)
+![Langchain Agents](images/langchain-agents.png?)
 
-LangChain offers a [catalog of tools](https://integrations.langchain.com/tools?WT.mc_id=academic-105485-koreyst) that can be imported into your application in which the LLM can get access to. These are made by the community and by the LangChain team.
+LangChain offers a [catalog of tools](https://integrations.langchain.com/tools?) that can be imported into your application in which the LLM can get access to. These are made by the community and by the LangChain team.
 
 You can then define these tools and pass them to the `Agent Executor`.
 
@@ -54,7 +54,7 @@ Visibility is another important aspect when talking about AI Agents. It is impor
 
 ## AutoGen
 
-The next AI Agent framework we will discuss is [AutoGen](https://microsoft.github.io/autogen/?WT.mc_id=academic-105485-koreyst). The main focus of AutoGen is conversations. Agents are both **conversable** and **customizable**.
+The next AI Agent framework we will discuss is [AutoGen](https://microsoft.github.io/autogen/?). The main focus of AutoGen is conversations. Agents are both **conversable** and **customizable**.
 
 **Conversable -** LLMs can start and continue a conversation with another LLM in order to complete a task. This is done by creating `AssistantAgents` and giving them a specific system message.
 
@@ -76,7 +76,7 @@ To change and manage state, an assistant Agent generates Python code to complete
 
 Here is an example of the process:
 
-![AutoGen](images/autogen.png?WT.mc_id=academic-105485-koreyst)
+![AutoGen](images/autogen.png?)
 
 #### LLM Defined with a System Message
 
@@ -108,11 +108,11 @@ chatbot (to user_proxy):
 
 Once the initial chat is processed, the Agent will send the suggest tool to call. In this case, it is a function called `get_weather`. Depending on your configuration, this function can be automatically executed and read by the Agent or can be executed based on user input.
 
-You can find a list of [AutoGen code samples](https://microsoft.github.io/autogen/docs/Examples/?WT.mc_id=academic-105485-koreyst) to further explore how to get started building.
+You can find a list of [AutoGen code samples](https://microsoft.github.io/autogen/docs/Examples/?) to further explore how to get started building.
 
 ## Taskweaver
 
-The next agent framework we will explore is [Taskweaver](https://microsoft.github.io/TaskWeaver/?WT.mc_id=academic-105485-koreyst). It is known as a "code-first" agent because instead of working strictly with `strings` , it can work with DataFrames in Python. This becomes extremely useful for data analysis and generation tasks. This can be things like creating graphs and charts or generating random numbers.
+The next agent framework we will explore is [Taskweaver](https://microsoft.github.io/TaskWeaver/?). It is known as a "code-first" agent because instead of working strictly with `strings` , it can work with DataFrames in Python. This becomes extremely useful for data analysis and generation tasks. This can be things like creating graphs and charts or generating random numbers.
 
 ### State and Tools
 
@@ -120,7 +120,7 @@ To manage the state of the conversation, TaskWeaver uses the concept of a `Plann
 
 To complete the tasks the `Planner` is exposed to the collection of tools called `Plugins`. This can be Python classes or a general code interpreter. This plugins are stored as embeddings so that the LLM can better search for the correct plugin.
 
-![Taskweaver](images/taskweaver.png?WT.mc_id=academic-105485-koreyst)
+![Taskweaver](images/taskweaver.png?)
 
 Here is an example of a plugin to handle anomaly detection:
 
@@ -132,9 +132,9 @@ The code is verified before executing. Another feature to manage context in Task
 
 ## JARVIS
 
-The last agent framework we will explore is [JARVIS](https://github.com/microsoft/JARVIS?tab=readme-ov-file?WT.mc_id=academic-105485-koreyst). What makes JARVIS unique is that it uses an LLM to manage the `state` of the conversation and the `tools`are other AI models. Each of the AI models are specialized models that perform certain tasks such as object detection, transcription or image captioning.
+The last agent framework we will explore is [JARVIS](https://github.com/microsoft/JARVIS?tab=readme-ov-file?). What makes JARVIS unique is that it uses an LLM to manage the `state` of the conversation and the `tools`are other AI models. Each of the AI models are specialized models that perform certain tasks such as object detection, transcription or image captioning.
 
-![JARVIS](images/jarvis.png?WT.mc_id=academic-105485-koreyst)
+![JARVIS](images/jarvis.png?)
 
 The LLM, being a general purpose model, receives the request from the user and identifies the specific task and any arguments/data that is needed to complete the task.
 
@@ -158,4 +158,4 @@ To continue your learning of AI Agents you can build with AutoGen:
 
 ## Learning does not stop here, continue the Journey
 
-After completing this lesson, check out our [Generative AI Learning collection](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) to continue leveling up your Generative AI knowledge!
+After completing this lesson, check out our [Generative AI Learning collection](https://aka.ms/genai-collection?) to continue leveling up your Generative AI knowledge!

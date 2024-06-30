@@ -1,6 +1,6 @@
 # さまざまな LLM の調査と比較
 
-[![Exploring and comparing different LLMs](../../images/02-lesson-banner.png?WT.mc_id=academic-105485-yoterada)](https://aka.ms/gen-ai-lesson2-gh?WT.mc_id=academic-105485-koreyst)
+[![Exploring and comparing different LLMs](../../images/02-lesson-banner.png?WT.mc_id=academic-105485-yoterada)](https://aka.ms/gen-ai-lesson2-gh?)
 
 > _(上記の画像をクリックすると、レッスン・ビデオを表示します)_
 
